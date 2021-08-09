@@ -1,25 +1,35 @@
-import logo from './logo.svg';
+import React, { Component } from "react";
 import './App.css';
+import { Routes } from './Routes'
+import { BrowserRouter as Router, } from "react-router-dom";
+import { Nav, Navbar } from "react-bootstrap";
+class App extends Component {
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  render() {
+        return (
+          <div className='App'>
+            <Router>
+                <Navbar
+                  variant='dark'
+                  className='navbar'
+                  style={{ position: "absolute", top: 0, width: "100vw" , display:"flex"}}
+                >
+                  <Navbar.Brand>OBSMUN</Navbar.Brand>
+
+                  <Nav className='navbar-nav ms-auto' id="navbarResponsive">
+                    <Nav.Link href="/">Home</Nav.Link>
+                    <Nav.Link href="/obs">Our School</Nav.Link>
+                    <Nav.Link href="/documents">Documents</Nav.Link>
+                    <Nav.Link href="/team">Meet The Team</Nav.Link>
+                    <Nav.Link href="/registration">Registration</Nav.Link>
+                    <Nav.Link href="/sponsors">Partners and Sponsors</Nav.Link>
+                  </Nav>
+
+                </Navbar>
+                <Routes />
+            </Router>
+          </div>
+        );
+  }
 }
-
 export default App;
