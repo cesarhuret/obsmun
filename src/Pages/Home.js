@@ -1,4 +1,6 @@
 import React, {Component} from "react";
+import { Container } from "react-bootstrap";
+import CardComp from "../Components/Card";
 import './Home.css'
 
 class Home extends Component {
@@ -16,9 +18,7 @@ class Home extends Component {
   render() {
         return ( 
         <div className="App">
-          <form className="UI">
-            <h1 style={{color: "gray", fontSize: 50}}>Create POAP Event</h1>
-          </form>
+          <CardComp></CardComp>
         </div>
         )
     }
