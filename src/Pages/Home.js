@@ -26,6 +26,7 @@ class Home extends Component {
               <h3 style={{fontSize: '1.5vw'}}>February 2022</h3>
             </div>
           </div>
+          <br/>
           <Container style={{textAlign: "left", color: "white"}}>
             <Row>
               <Col>

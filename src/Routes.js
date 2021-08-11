@@ -1,5 +1,6 @@
 import React from 'react';
 import { Route, Switch, BrowserRouter } from 'react-router-dom';
+import Team from './Pages/Team';
 import Home from './Pages/Home'
 
 export function Routes() {
@@ -21,7 +22,7 @@ export function Routes() {
                 </Route>
                 <Route path="/team">
                     
-                    {/* <About/> */}
+                   <Team></Team>
 
                 </Route>
                 <Route path="/registration">

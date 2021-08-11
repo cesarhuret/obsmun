@@ -1,19 +1,33 @@
 import React, {Component} from "react";
-import {Card} from 'react-bootstrap'
+import {Card, Col, Container, Row} from 'react-bootstrap'
 
 class CardComp extends Component {
   render() {
         return ( 
         <div className="App">
-            <Card style={{ width: '30rem' }}>
-                <Card.Body>
-                    <Card.Title>Oporto British School</Card.Title>
-                    <Card.Text>
-                    The Oporto British School is the oldest British school in continental Europe. Known for its friendly environment, the OBS takes pride in its unified community and aims to help each student fulfil their full potential in a safe and nurturing environment.
-                    </Card.Text>
-                    <Card.Link href="#">More Info</Card.Link>
-                </Card.Body>
-            </Card>
+            <Container style={{textAlign: "left", color: "white"}}>
+                <Row>
+                    <Col>
+                        <Card bg="dark" variant="light" style={{ width: '20vw' }}>
+                            <Card.Img variant="top" src="https://i.imgur.com/dqAtAv6.png" />
+                            <Card.Body>
+                                <Card.Title>Pedro Pinho</Card.Title>
+                                <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                    <Col>
+                        <Card bg="dark" variant="light" style={{ width: '20vw' }}>
+                            <Card.Img variant="top" src="https://i.imgur.com/dqAtAv6.png" />
+                            <Card.Body>
+                                <Card.Title>Joao Pedro Bastos</Card.Title>
+                                <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                </Row>
+            </Container>
+            
         </div>
         )
     }

@@ -8,7 +8,7 @@ class FootComp extends Component {
             <Navbar expand="lg">
                 <br/>
                 <Container style={{float: "left"}}>
-                    <Navbar.Brand className='mx-auto' style={{color: 'white'}}>Copyright&nbsp;© OBSMUN 2021</Navbar.Brand>
+                    <Navbar.Brand className='mx-auto' style={{color: 'white', fontSize: '0.8vw'}}>Copyright&nbsp;© OBSMUN 2021</Navbar.Brand>
                 </Container>
             </Navbar>
         </div>
