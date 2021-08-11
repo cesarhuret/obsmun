@@ -12,7 +12,7 @@ class App extends Component {
             <Router> 
                 <NavComp></NavComp>
                 <Routes />
-                {/* <FootComp></FootComp> */}
+                <FootComp></FootComp>
             </Router>
           </div>
         );

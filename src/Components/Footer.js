@@ -5,13 +5,12 @@ class FootComp extends Component {
   render() {
         return ( 
         <div className="App">
-            <div className="fixed-bottom">  
-                <Navbar bg="light" expand="lg">
-                    <Container>
-                        <Navbar.Brand>Copyright&nbsp;© OBSMUN 2021</Navbar.Brand>
-                    </Container>
-                </Navbar>
-            </div>
+            <Navbar expand="lg">
+                <br/>
+                <Container style={{float: "left"}}>
+                    <Navbar.Brand className='mx-auto' style={{color: 'white'}}>Copyright&nbsp;© OBSMUN 2021</Navbar.Brand>
+                </Container>
+            </Navbar>
         </div>
         )
     }
