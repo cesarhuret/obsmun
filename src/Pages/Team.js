@@ -21,7 +21,7 @@ class Team extends Component {
           <div>
             <img src='https://i.imgur.com/dqAtAv6.png'></img>
             <div className="center">
-              <h1 style={{fontSize: '3vw'}}>The Team</h1>
+              <h1 style={{fontSize: '7vh'}}>The Team</h1>
             </div>
           </div>
           <br/>

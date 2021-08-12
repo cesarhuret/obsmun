@@ -6,7 +6,7 @@ class NavComp extends Component {
         return ( 
         <div className="App">
             <div className="fixed-top">
-                <Navbar bg='none' variant="dark" expand="lg" fixed='top' style={{ position: "sticky", top: 0, background: 'linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2))'}}>
+                <Navbar bg='none' variant="dark" expand="lg" fixed='top' style={{ position: "sticky", top: 0, background: 'linear-gradient(rgba(0, 20, 100, 0.9), rgba(0, 20, 100, 0.8))'}}>
                 <Container>
                     <Navbar.Brand href="/">OBSMUN</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -14,6 +14,7 @@ class NavComp extends Component {
                     <Nav className="ml-auto">
                         <Nav.Link href="/">Home</Nav.Link>
                         <Nav.Link href="/obs">Our School</Nav.Link>
+                        <Nav.Link href="/obsmun">The OBSMUN</Nav.Link>
                         <Nav.Link href="/documents">Documents</Nav.Link>
                         <Nav.Link href="/team">Meet The Team</Nav.Link>
                         <Nav.Link href="/registration">Registration</Nav.Link>

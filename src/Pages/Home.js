@@ -21,13 +21,13 @@ class Home extends Component {
           <div>
             <img src='https://i.imgur.com/dqAtAv6.png'></img>
             <div className="center">
-              <h1 style={{fontSize: '5vw'}}>Oporto British School</h1>
-              <h1 style={{fontSize: '3vw'}}>Model United Nations</h1>
-              <h3 style={{fontSize: '1.5vw'}}>February 2022</h3>
+              <h1 style={{fontSize: '9vh'}}>Oporto British School</h1>
+              <h1 style={{fontSize: '6vh'}}>Model United Nations</h1>
+              <h3 style={{fontSize: '3vh'}}>February 2022</h3>
             </div>
           </div>
           <br/>
-          <Container style={{textAlign: "left", color: "white"}}>
+          <Container style={{textAlign: "left", color: "white"}} >
             <Row>
               <Col>
                 <div className="rounded shadow-lg p-5" style={{borderStyle: "none"}}>

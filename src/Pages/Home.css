@@ -11,3 +11,10 @@ img {
     min-width: 100%;   
     z-index: 10; 
 }
+
+.horizontalcenter {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    text-align: center;
+}

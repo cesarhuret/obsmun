@@ -2,6 +2,8 @@ import React from 'react';
 import { Route, Switch, BrowserRouter } from 'react-router-dom';
 import Team from './Pages/Team';
 import Home from './Pages/Home'
+import School from './Pages/School';
+import OBSMUN from './Pages/OBSMUN';
 
 export function Routes() {
     return (
@@ -12,7 +14,12 @@ export function Routes() {
                 </Route>
                 <Route path="/obs">
                     
-                    {/* <About/> */}
+                    <School/>
+
+                </Route>
+                <Route path="/obsmun">
+                    
+                    <OBSMUN/>
 
                 </Route>
                 <Route path="/documents">
@@ -22,7 +29,7 @@ export function Routes() {
                 </Route>
                 <Route path="/team">
                     
-                   <Team></Team>
+                   <Team/>
 
                 </Route>
                 <Route path="/registration">
