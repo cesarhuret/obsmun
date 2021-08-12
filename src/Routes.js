@@ -4,6 +4,7 @@ import Team from './Pages/Team';
 import Home from './Pages/Home'
 import School from './Pages/School';
 import OBSMUN from './Pages/OBSMUN';
+import Registration from './Pages/Registration';
 
 export function Routes() {
     return (
@@ -34,7 +35,7 @@ export function Routes() {
                 </Route>
                 <Route path="/registration">
                     
-                    {/* <About/> */}
+                    <Registration/>
 
                 </Route>
                 <Route path="/sponsors">
