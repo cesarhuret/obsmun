@@ -1,6 +1,5 @@
 import React, {Component} from "react";
-import { Button, Col, Container, Nav, Row } from "react-bootstrap";
-import CardComp from "../Components/Card";
+import {Col, Container, Nav, Row } from "react-bootstrap";
 import './Home.css'
 
 class Registration extends Component {
