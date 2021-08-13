@@ -25,15 +25,15 @@ class Registration extends Component {
           </div>
           <br/>
           <Container style={{textAlign: "center", color: "white"}} fluid>
-            <Row>
-              <Col>
+            <Row className="align-items-center">
+              <Col lg={{span: 6, order: 1}}>
                 <div className="rounded shadow-lg p-5" style={{borderStyle: "none"}}>
-                    <Nav.Link href='https://forms.gle/NcXXGsAE5Z2VVAZ1A' target='_blank' style={{fontSize: '2vw'}}>Register as an Individual Delegate</Nav.Link>
+                    <Nav.Link href='https://forms.gle/NcXXGsAE5Z2VVAZ1A' target='_blank' style={{fontSize: '3vh'}}>Register as an Individual Delegate</Nav.Link>
                 </div>
               </Col>
-              <Col>
+              <Col lg={{span: 6, order: 2}}>
                 <div className="rounded shadow-lg p-5" style={{borderStyle: "none"}}>
-                    <Nav.Link href='https://forms.gle/X25YqoNydeNnc5UWA' target='_blank' style={{fontSize: '2vw'}}>Register as a School</Nav.Link>
+                    <Nav.Link href='https://forms.gle/X25YqoNydeNnc5UWA' target='_blank' style={{fontSize: '3vh'}}>Register as a School</Nav.Link>
                 </div>
               </Col>
             </Row>

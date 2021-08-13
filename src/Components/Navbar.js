@@ -15,10 +15,10 @@ class NavComp extends Component {
                         <Nav.Link href="/">Home</Nav.Link>
                         <Nav.Link href="/obs">Our School</Nav.Link>
                         <Nav.Link href="/obsmun">The OBSMUN</Nav.Link>
-                        <Nav.Link href="/documents">Documents</Nav.Link>
+                        {/* <Nav.Link href="/documents">Documents</Nav.Link> */}
                         <Nav.Link href="/team">Meet The Team</Nav.Link>
                         <Nav.Link href="/registration">Registration</Nav.Link>
-                        <Nav.Link href="/sponsors">Partners and Sponsors</Nav.Link>
+                        {/* <Nav.Link href="/sponsors">Partners and Sponsors</Nav.Link> */}
                     </Nav>
                     </Navbar.Collapse>
                 </Container>

@@ -7,7 +7,7 @@ class CardComp extends Component {
         <div className="App">
             <Container style={{textAlign: "left", color: "white"}}>
                 <Row>
-                    <Col>
+                    <Col sm>
                         <Card bg="dark" variant="light" style={{ width: '20vw' }}>
                             <Card.Img variant="top" src="https://i.imgur.com/dqAtAv6.png" />
                             <Card.Body>
@@ -16,7 +16,7 @@ class CardComp extends Component {
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col>
+                    <Col sm>
                         <Card bg="dark" variant="light" style={{ width: '20vw' }}>
                             <Card.Img variant="top" src="https://i.imgur.com/dqAtAv6.png" />
                             <Card.Body>

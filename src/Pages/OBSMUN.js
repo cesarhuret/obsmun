@@ -1,6 +1,5 @@
 import React, {Component} from "react";
-import { Button, Col, Container, Row } from "react-bootstrap";
-import CardComp from "../Components/Card";
+import { Col, Container, Row } from "react-bootstrap";
 import './Home.css'
 
 class OBSMUN extends Component {
@@ -19,30 +18,29 @@ class OBSMUN extends Component {
         return ( 
         <div className="App">
           <div>
-            <img src='https://i.imgur.com/dqAtAv6.png'></img>
+            <img src='exobsmun.png'></img>
             <div className="center">
               <h1 style={{fontSize: '7vh'}}>The OBSMUN</h1>
             </div>
           </div>
           <br/>
           <Container style={{textAlign: "left", color: "white"}} fluid>
-            <Row>
-              <Col xs={8}>
+            <Row className="align-items-center">
+              <Col lg={{span: 8, order: 1}}>
                 <div className="rounded shadow-lg p-5" style={{borderStyle: "none"}}>
                     <h1>What is the OBSMUN?</h1>
                     <p>Random text I have generated to fill space in this location. We shall determine this later, but for now I’m just putting this so you guys can see about the size of the things we need to write. More random text, because let’s face it, we’ll probably need to write more. But anyways… what does more text mean except a filler in our website as a way for us to seem more credible. How have we a society evolved to trust more what we perceive as pretty than what we perceive as useful. Anyways, how have your holidays been so far? Fun, interesting? Ok anyways, I’d better stop: this is more or less the correct amount of text.</p>
                 </div>
               </Col>
-              <Col>
-                <div className="p-2"><img className="rounded img-fluid shadow-lg" src="https://i.imgur.com/dqAtAv6.png"/></div>
+              <Col lg={{span: 4, order: 2}}>
+                <div className="p-2"><img className="rounded img-fluid shadow-lg" src="obsmuncouncil.png"/></div>
               </Col>
             </Row>
-            <br/>
-            <Row>
-                <Col>
-                    <div className="p-2"><img className="rounded img-fluid shadow-lg" src="https://i.imgur.com/dqAtAv6.png"/></div>
+            <Row className="align-items-center">
+                <Col lg={{span: 4, order: 1}}>
+                    <div className="p-2"><img className="rounded img-fluid shadow-lg" src="natixis.png"/></div>
                 </Col>
-                <Col xs={8}>
+                <Col lg={{span: 8, order: 2}}>
                     <div className="rounded shadow-lg p-5" style={{borderStyle: "none"}}>
                         <h1>When and Where?</h1>
                         <p>Random text I have generated to fill space in this location. We shall determine this later, but for now I’m just putting this so you guys can see about the size of the things we need to write. More random text, because let’s face it, we’ll probably need to write more.</p>

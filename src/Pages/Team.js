@@ -19,7 +19,7 @@ class Team extends Component {
         return ( 
         <div className="App">
           <div>
-            <img src='https://i.imgur.com/dqAtAv6.png'></img>
+            <img src='garden.png'></img>
             <div className="center">
               <h1 style={{fontSize: '7vh'}}>The Team</h1>
             </div>
