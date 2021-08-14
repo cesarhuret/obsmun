@@ -43,8 +43,8 @@ class OBSMUN extends Component {
                 <Col xs={{span: 12, order: 2}} lg={{span: 8, order: 2}}>
                     <div className="rounded shadow-lg p-5" style={{borderStyle: "none"}}>
                         <h1>When and Where?</h1>
-                        <p>Random text I have generated to fill space in this location. We shall determine this later, but for now I’m just putting this so you guys can see about the size of the things we need to write. More random text, because let’s face it, we’ll probably need to write more.</p>
-                        <p>Random text I have generated to fill space in this location. We shall determine this later, but for now I’m just putting this so you guys can see about the size of the things we need to write.</p>
+                        <p>It is with immense pleasure that we can announce OBSMUN 2022 will take place from the 3rd to the 5th of February 2022! We’re hoping we will be able to provide you with the best Mun experience possible at our lovely city in Portugal.</p>
+                        <p>The event will take place in the international division of the French Investment Bank Natixis at Porto. This location will be able to provide you with the best delegate experience possible and we are sure you will enjoy its central location. Nearby you can find one of Porto’s most prominent streets “Rua Santa Catarina”, which will lead you to directly to some of the most beautiful landmarks.</p>
                     </div>
                 </Col>
             </Row>
