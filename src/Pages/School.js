@@ -18,10 +18,10 @@ class School extends Component {
   render() {
         return ( 
         <div className="App">
-          <div>
-            <img src='obsschool.png'></img>
+          <div style={{position: "relative"}}>
+            <img style={{maxWidth: '100%', height: 'auto'}} src='obsschool.png'></img>
             <div className="center">
-              <h1 style={{fontSize: '5vh'}}>Our School</h1>
+              <h1 style={{fontSize: '7vh'}}>Our School</h1>
             </div>
           </div>
           <br/>

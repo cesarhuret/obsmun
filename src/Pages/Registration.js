@@ -17,7 +17,7 @@ class Registration extends Component {
   render() {
         return ( 
         <div className="App">
-          <div>
+          <div style={{position: "relative"}}>
             <img src='https://i.imgur.com/dqAtAv6.png'></img>
             <div className="center">
               <h1 style={{fontSize: '7vh'}}>Registration</h1>

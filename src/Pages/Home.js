@@ -17,25 +17,25 @@ class Home extends Component {
   render() {
         return ( 
         <div className="App">
-          <div>
-            <img src='https://i.imgur.com/dqAtAv6.png'></img>
+          <div style={{position: "relative"}}>
+            <img style={{maxWidth: '100%', height: 'auto'}} src='https://i.imgur.com/dqAtAv6.png'></img>
             <div className="center">
-              <h1>Oporto British School</h1>
-              <h2>Model United Nations</h2>
-              <h3>February 2022</h3>
+              <h1 style={{fontSize: '5vw'}}>Oporto British School</h1>
+              <h2 style={{fontSize: '3vw'}}>Model United Nations</h2>
+              <h3 style={{fontSize: '2vw'}}>February 2022</h3>
             </div>
           </div>
           <br/>
           <Container style={{textAlign: "left", color: "white"}} >
             <Row className="align-items-center">
-              <Col lg={{span: 6, order: 1}} sm={{order: 2}}>
+              <Col lg={{span: 6, order: 1}}>
                 <div className="rounded shadow-lg p-5" style={{borderStyle: "none"}}>
                   <h1>Oporto British School</h1>
                   <p>The Oporto British School is the oldest British school in continental Europe. Known for its friendly environment, the OBS takes pride in its unified community and aims to help each student fulfil their full potential in a safe and nurturing environment.</p>
                   <Button href="/obs">More Info</Button>
                 </div>
               </Col>
-              <Col lg={{span: 6, order: 2}} sm={{order: 1}}>
+              <Col lg={{span: 6, order: 2}}>
                 <div className="p-5"><img className="rounded img-fluid shadow-lg" src="obscampus.png"/></div>
               </Col>
             </Row>
