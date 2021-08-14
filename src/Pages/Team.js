@@ -1,5 +1,4 @@
 import React, {Component} from "react";
-import { Button, Col, Container, Row } from "react-bootstrap";
 import CardComp from "../Components/Card";
 import './Home.css'
 
@@ -25,10 +24,8 @@ class Team extends Component {
             </div>
           </div>
           <br/>
-          <h2 style={{color: "white"}}>Executive Team</h2>
-          <div style={{alignItems: "center", display: "flex"}}>
-            <CardComp></CardComp>
-          </div>
+          <CardComp></CardComp>
+          
         </div>
         )
     }

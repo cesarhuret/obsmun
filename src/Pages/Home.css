@@ -18,3 +18,14 @@ img {
     transform: translate(-50%, 0%);
     text-align: center;
 }
+
+.cardhover {
+    transition: box-shadow .3s;
+}
+.cardhover:hover {
+    box-shadow: 0 0 51px rgba(0, 0, 0, 0.2); 
+}
+
+.navlink {
+    transition: .3s;
+}

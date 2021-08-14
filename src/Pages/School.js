@@ -50,7 +50,7 @@ class School extends Component {
                   <h1>Our Mission</h1>
                   <h5 style={{fontWeight: 300, textAlign: 'left'}}>To do everything we can to motivate each and every child here, and work to ensure they do the best they possibly can in their academic work and other areas of their lives. In doing this, we combine tradition with forward-thinking educational practice, providing a dynamic, high-quality and internationally-minded experience to develop creative, compassionate and inquiring life-long learners and leaders.</h5>
               </div>
-              <h4>See more at <Link style={{textDecoration: 'none'}} to={{ pathname: "https://www.obs.edu.pt/en/"}} target="_blank">OBS</Link></h4>
+              <h4>See more at <Link className='navlink' style={{textDecoration: 'none'}} to={{ pathname: "https://www.obs.edu.pt/en/"}} target="_blank">OBS</Link></h4>
             </div>
           </div>
         </div>

@@ -18,7 +18,7 @@ class OBSMUN extends Component {
         return ( 
         <div className="App">
           <div style={{position: "relative"}}>
-            <img style={{maxWidth: '100%', height: 'auto', minWidth: '100%'}} src='exobsmun.png'></img>
+            <img style={{maxWidth: '100%', height: 'auto'}} src='exobsmun.png'></img>
             <div className="center">
               <h1 style={{fontSize: '7vh'}}>The OBSMUN</h1>
             </div>
@@ -33,12 +33,12 @@ class OBSMUN extends Component {
                 </div>
               </Col>
               <Col xs={{span: 12, order: 1}} lg={{span: 4, order: 2}}>
-                <div className="p-2"><img className="rounded img-fluid shadow-lg" src="obsmuncouncil.png"/></div>
+                <div className="p-2 cardhover"><img className="rounded img-fluid shadow-lg" src="obsmuncouncil.png"/></div>
               </Col>
             </Row>
             <Row className="align-items-center">
                 <Col xs={{span: 12, order: 1}} lg={{span: 4, order: 1}}>
-                    <div className="p-2"><img className="rounded img-fluid shadow-lg" src="natixis.png"/></div>
+                    <div className="p-2 cardhover"><img className="rounded img-fluid shadow-lg" src="natixis.png"/></div>
                 </Col>
                 <Col xs={{span: 12, order: 2}} lg={{span: 8, order: 2}}>
                     <div className="rounded shadow-lg p-5" style={{borderStyle: "none"}}>
