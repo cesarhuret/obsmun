@@ -50,7 +50,7 @@ class OBSMUN extends Component {
             </Row>
           </Container>
           <Col style={{padding: '1%'}}>
-                    <iframe  className="shadow-lg rounded" title='iframe' style={{ overflow: "hidden", background:'none', width:'80vh', height:'40vh', maxWidth: '100%', border: 'none'}} src="https://maps.google.com/maps?q=Natixis,%20Rua%20de%20Santos%20Pousada%20220,%204000-478%20Porto&t=&z=13&ie=UTF8&iwloc=&output=embed" />
+                    <iframe  className="shadow-lg rounded" title='iframe' style={{ overflow: "hidden", background:'none', width:'80vh', height:'40vh', maxWidth: '90%', border: 'none'}} src="https://maps.google.com/maps?q=Natixis,%20Rua%20de%20Santos%20Pousada%20220,%204000-478%20Porto&t=&z=13&ie=UTF8&iwloc=&output=embed" />
           </Col>
         </div>
         )
