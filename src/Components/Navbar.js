@@ -6,7 +6,7 @@ class NavComp extends Component {
         return ( 
         <div className="App">
             <div className="fixed-top">
-                <Navbar bg='none' variant="dark" expand="lg" fixed='top' style={{ position: "sticky", top: 0, background: 'linear-gradient(rgba(0, 20, 100, 0.9), rgba(0, 20, 100, 0.8))'}}>
+                <Navbar bg='none' variant="dark" expand="lg" fixed='top' style={{ position: "sticky", top: 0, background: 'linear-gradient(rgba(12, 47, 104, 1), rgba(12, 47, 84, 1))'}}>
                 <Container>
                     <Navbar.Brand href="/">OBSMUN</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />

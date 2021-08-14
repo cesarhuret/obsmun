@@ -5,7 +5,7 @@ class FootComp extends Component {
   render() {
         return ( 
         <div className="App">
-            <Container>
+            <Container style={{padding: 30}}>
             <Navbar variant='dark'>
                 <Nav.Link href={"mailto:obsmun@obs.edu.pt"}>obsmun@obs.edu.pt</Nav.Link>
                 <Navbar.Text>Address:  Rua Da Cerca, 338, Porto, Portugal</Navbar.Text>
