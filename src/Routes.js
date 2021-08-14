@@ -43,6 +43,11 @@ export function Routes() {
                     {/* <About/> */}
 
                 </Route>
+                <Route path="/socialevent">
+                    
+                    {/* <About/> */}
+
+                </Route>
             </Switch>
         </BrowserRouter>
 
