@@ -5,8 +5,17 @@
     transform: translate(-50%, -40%);
     text-align: center;
     min-width: 100%;
-    color: white;
 }
+
+.homecenter {
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -70%);
+    text-align: center;
+    min-width: 100%;
+}
+
 img {
     min-width: 100%;   
     z-index: 10; 

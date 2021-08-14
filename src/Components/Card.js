@@ -6,8 +6,8 @@ class CardComp extends Component {
   render() {
         return ( 
         <div className="App">
-            <Container style={{textAlign: "left", color: "white"}}>
-                <h2 style={{color: "white", padding: 10}} className='shadow-lg'>Executive Team</h2>
+            <Container style={{textAlign: "left"}}>
+                <h2 style={{ padding: 10}} className='shadow-lg'>Executive Team</h2>
                 <Row className='justify-content-center'>
                     <Col xs={{span: 12, order: 1}} lg={{span: 3, order: 1}} style={{paddingBottom: 30}}>
                         <Card bg="dark" variant="light" className='cardhover'>
@@ -46,8 +46,8 @@ class CardComp extends Component {
                         </Card>
                     </Col>
                 </Row>
-                <div style={{color: "white", paddingTop: 10}}>
-                    <h2  style={{color: "white", padding: 10}} className='shadow-lg'>Secretary-Generals</h2>
+                <div style={{ paddingTop: 10}}>
+                    <h2  style={{ padding: 10}} className='shadow-lg'>Secretary-Generals</h2>
                 </div>
                 <Row className='justify-content-center'>
                     <Col xs={{span: 12, order: 1}} lg={{span: 4, order: 1}}>

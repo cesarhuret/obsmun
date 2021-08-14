@@ -19,13 +19,13 @@ class School extends Component {
         return ( 
         <div className="App">
           <div style={{position: "relative"}}>
-            <img style={{maxWidth: '100%', height: 'auto'}} src='obsschool.png'></img>
+            <img style={{maxWidth: '100%', height: 'auto'}} src='obscampus.png' alt=''/>
             <div className="center">
               <h1 style={{fontSize: '7vh'}}>Our School</h1>
             </div>
           </div>
           <br/>
-          <Container style={{textAlign: "left", color: "white"}} fluid>
+          <Container style={{textAlign: "left"}} fluid>
             <Row className="align-items-center">
               <Col xs={{span: 12, order: 2}} lg={{span: 8, order: 1}}>
                 <div className="rounded shadow-lg p-5" style={{borderStyle: "none", fontSize: 20}}>
@@ -35,12 +35,12 @@ class School extends Component {
                 </div>
               </Col>
               <Col xs={{span: 12, order: 1}} lg={{span: 4, order: 2}}>
-                <div className="p-5"><img className="rounded img-fluid shadow-lg" src="obslogo.png"/></div>
+                <div className="p-5"><img className="rounded img-fluid shadow-lg" src="obslogo.png" alt=''/></div>
               </Col>
             </Row>
           </Container>
-          <div className='rounded shadow-lg' style={{minWidth: '100%', color: "white", textAlign: "center"}}>
-            <img className="img-fluid shadow-lg" style={{paddingTop: '2vh'}} src="obskids.png"/>
+          <div className='rounded shadow-lg' style={{minWidth: '100%', textAlign: "center"}}>
+            <img className="img-fluid shadow-lg" style={{paddingTop: '2vh'}} src="obskids.png" alt=''/>
             <div style={{ padding: '2%'}}>
               <div style={{padding: '2vh'}}>
                   <h1>Our Vision</h1>

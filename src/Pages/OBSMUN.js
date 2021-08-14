@@ -18,13 +18,13 @@ class OBSMUN extends Component {
         return ( 
         <div className="App">
           <div style={{position: "relative"}}>
-            <img style={{maxWidth: '100%', height: 'auto'}} src='exobsmun.png'></img>
+            <img style={{maxWidth: '100%', height: 'auto'}} src='exobsmun.png' alt=''/>
             <div className="center">
               <h1 style={{fontSize: '7vh'}}>The OBSMUN</h1>
             </div>
           </div>
           <br/>
-          <Container style={{textAlign: "left", color: "white"}} fluid>
+          <Container style={{textAlign: "left"}} fluid>
             <Row className="align-items-center">
               <Col xs={{span: 12, order: 2}} lg={{span: 8, order: 1}}>
                 <div className="rounded shadow-lg p-5" style={{borderStyle: "none"}}>
@@ -33,12 +33,12 @@ class OBSMUN extends Component {
                 </div>
               </Col>
               <Col xs={{span: 12, order: 1}} lg={{span: 4, order: 2}}>
-                <div className="p-2 cardhover"><img className="rounded img-fluid shadow-lg" src="obsmuncouncil.png"/></div>
+                <div className="p-2 cardhover"><img className="rounded img-fluid shadow-lg" src="obsmuncouncil.png" alt=''/></div>
               </Col>
             </Row>
             <Row className="align-items-center">
                 <Col xs={{span: 12, order: 1}} lg={{span: 4, order: 1}}>
-                    <div className="p-2 cardhover"><img className="rounded img-fluid shadow-lg" src="natixis.png"/></div>
+                    <div className="p-2 cardhover"><img className="rounded img-fluid shadow-lg" src="natixis.png" alt=''/></div>
                 </Col>
                 <Col xs={{span: 12, order: 2}} lg={{span: 8, order: 2}}>
                     <div className="rounded shadow-lg p-5" style={{borderStyle: "none"}}>
@@ -50,7 +50,7 @@ class OBSMUN extends Component {
             </Row>
           </Container>
           <Col style={{padding: '1%'}}>
-                    <iframe  className="shadow-lg rounded" style={{ overflow: "hidden", background:'none', width:'80vh', height:'40vh', maxWidth: '100%'}} src="https://maps.google.com/maps?q=Natixis,%20Rua%20de%20Santos%20Pousada%20220,%204000-478%20Porto&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"/>
+                    <iframe  className="shadow-lg rounded" title='iframe' style={{ overflow: "hidden", background:'none', width:'80vh', height:'40vh', maxWidth: '100%', border: 'none'}} src="https://maps.google.com/maps?q=Natixis,%20Rua%20de%20Santos%20Pousada%20220,%204000-478%20Porto&t=&z=13&ie=UTF8&iwloc=&output=embed" />
           </Col>
         </div>
         )

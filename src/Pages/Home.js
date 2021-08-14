@@ -18,15 +18,15 @@ class Home extends Component {
         return ( 
         <div className="App">
           <div style={{position: "relative"}}>
-            <img style={{maxWidth: '100%', height: 'auto'}} src='https://i.imgur.com/dqAtAv6.png'></img>
-            <div className="center">
+            <img style={{maxWidth: '100%', height: 'auto'}} src='https://i.imgur.com/dqAtAv6.png' alt=''/>
+            <div className="homecenter">
               <h1 style={{fontSize: '5vw'}}>Oporto British School</h1>
               <h2 style={{fontSize: '3vw'}}>Model United Nations</h2>
               <h3 style={{fontSize: '2vw'}}>February 2022</h3>
             </div>
           </div>
           <br/>
-          <Container style={{textAlign: "left", color: "white"}} >
+          <Container style={{textAlign: "left"}} >
             <Row className="align-items-center">
               <Col xs={{span: 12, order: 2}} lg={{span: 6, order: 1}}>
                 <div className="rounded shadow-lg p-5" style={{borderStyle: "none"}}>
@@ -36,12 +36,12 @@ class Home extends Component {
                 </div>
               </Col>
               <Col xs={{span: 12, order: 1}} lg={{span: 6, order: 2}}>
-                <div className="p-5"><img className="rounded img-fluid shadow-lg" src="obscampus.png"/></div>
+                <div className="p-5"><img className="rounded img-fluid shadow-lg" src="obscampus.png" alt=''/></div>
               </Col>
             </Row>
             <Row className="align-items-center">
               <Col xs={{span: 12, order: 1}} lg={{span: 6, order: 1}}>
-                <div className="p-5"><img className="rounded img-fluid shadow-lg" src="munwaterbottle.png"/></div>
+                <div className="p-5"><img className="rounded img-fluid shadow-lg" src="munwaterbottle.png" alt=''/></div>
               </Col>
               <Col xs={{span: 12, order: 2}} lg={{span: 6, order: 2}}>
                 <div className="rounded shadow-lg p-5" style={{borderStyle: "none"}}>
@@ -60,12 +60,12 @@ class Home extends Component {
                 </div>
               </Col>
               <Col xs={{span: 12, order: 1}} lg={{span: 6, order: 2}}>
-                <div className="p-5"><img className="rounded img-fluid shadow-lg" src="munempty.png"/></div>
+                <div className="p-5"><img className="rounded img-fluid shadow-lg" src="munempty.png" alt=''/></div>
               </Col>
             </Row>
             <Row className="align-items-center">
               <Col xs={{span: 12, order: 1}} lg={{span: 6, order: 1}}>
-                <div className="p-5"><img className="rounded img-fluid shadow-lg" src="exobsmun.png"/></div>
+                <div className="p-5"><img className="rounded img-fluid shadow-lg" src="exobsmun.png" alt=''/></div>
               </Col>
               <Col xs={{span: 12, order: 2}} lg={{span: 6, order: 2}}>
                 <div className="rounded shadow-lg p-5" style={{borderStyle: "none"}}>
@@ -76,7 +76,7 @@ class Home extends Component {
               </Col>
             </Row>
           </Container>
-          {/* <Container style={{color: "white"}}>
+          {/* <Container>
             <h2>Our Partners</h2>
             <br/>
             <Row>

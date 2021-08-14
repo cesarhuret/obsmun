@@ -18,13 +18,13 @@ class Registration extends Component {
         return ( 
         <div className="App">
           <div style={{position: "relative"}}>
-            <img src='https://i.imgur.com/dqAtAv6.png'></img>
+            <img src='https://i.imgur.com/dqAtAv6.png' alt='' />
             <div className="center">
               <h1 style={{fontSize: '7vh'}}>Registration</h1>
             </div>
           </div>
           <br/>
-          <Container style={{textAlign: "center", color: "white"}} fluid>
+          <Container style={{textAlign: "center"}} fluid>
             <Row className="align-items-center">
               <Col lg={{span: 6, order: 1}}>
                 <div className="rounded shadow-lg p-5" style={{borderStyle: "none"}}>

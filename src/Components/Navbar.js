@@ -1,5 +1,6 @@
 import React, {Component} from "react";
-import {Navbar, Nav, Container} from 'react-bootstrap'
+import {Navbar, Nav, Container, ToggleButton} from 'react-bootstrap'
+import Switch from "react-bootstrap/esm/Switch";
 import '../Pages/Home.css'
 
 class NavComp extends Component {
@@ -10,7 +11,7 @@ class NavComp extends Component {
                 <Navbar bg='none' variant="dark" expand="lg" fixed='top' style={{ position: "sticky", top: 0, background: 'linear-gradient(rgba(12, 47, 104, 1), rgba(12, 47, 84, 1))'}}>
                 <Container>
                     <Navbar.Brand href="/">
-                        <img src='logo192.png' style={{width: 50, height: 'auto'}} />
+                        <img src='logo192.png' style={{width: 50, height: 'auto'}} alt='' />
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
