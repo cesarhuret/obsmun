@@ -33,7 +33,7 @@ class OBSMUN extends Component {
                 </div>
               </Col>
               <Col xs={{span: 12, order: 1}} lg={{span: 4, order: 2}}>
-                <div className="p-2 cardhover"><img className="rounded img-fluid shadow-lg" src="obsmuncouncil.png" alt=''/></div>
+                <div className="p-2 cardhover round"><img className="rounded img-fluid shadow-lg" src="obsmuncouncil.png" alt=''/></div>
               </Col>
             </Row>
             <Row className="align-items-center">

@@ -63,7 +63,7 @@ class Home extends Component {
                 <div className="p-5"><img className="rounded img-fluid shadow-lg" src="munempty.png" alt=''/></div>
               </Col>
             </Row> */}
-            <Row className="align-items-center">
+            {/* <Row className="align-items-center">
               <Col xs={{span: 12, order: 2}} lg={{span: 6, order: 2}}>
                 <div className="p-5"><img className="rounded img-fluid shadow-lg" src="exobsmun.png" alt=''/></div>
               </Col>
@@ -74,7 +74,7 @@ class Home extends Component {
                   <Button href="/registration">More Info</Button>
                 </div>
               </Col>
-            </Row>
+            </Row> */}
           </Container>
           {/* <Container>
             <h2>Our Partners</h2>
