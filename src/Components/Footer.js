@@ -7,7 +7,7 @@ class FootComp extends Component {
         <div className="App">
             <Container style={{padding: 30, position: 'relative'}}>
             <Navbar variant='dark' className='justify-content-center'>
-                <Nav.Link className='navlink' href={"mailto:obsmun@obs.edu.pt"}>obsmun@obs.edu.pt</Nav.Link>
+                <Nav.Link className='navlink' href={"mailto:obsmun2022@gmail.com"}>obsmun2022@gmail.com</Nav.Link>
                 <Navbar.Text style={{color: 'gray'}}>Address:  Rua Da Cerca, 338, Porto, Portugal</Navbar.Text>
                 <Nav.Link className='navlink' href="https://www.instagram.com/obsmun2022/" target='_blank'>Instagram</Nav.Link>
                 {/* <Nav.Link>Twitter</Nav.Link> */}
