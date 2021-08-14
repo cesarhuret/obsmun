@@ -20,9 +20,9 @@ class Home extends Component {
           <div style={{position: "relative"}}>
             <img style={{maxWidth: '100%', height: 'auto'}} src='https://i.imgur.com/dqAtAv6.png' alt=''/>
             <div className="homecenter">
-              <h1 style={{fontSize: '5vw'}}>Oporto British School</h1>
-              <h2 style={{fontSize: '3vw'}}>Model United Nations</h2>
-              <h3 style={{fontSize: '2vw'}}>February 2022</h3>
+              <h1 className='white' style={{fontSize: '5vw'}}>Oporto British School</h1>
+              <h2 className='white' style={{fontSize: '3vw'}}>Model United Nations</h2>
+              <h3 className='white' style={{fontSize: '2vw'}}>February 2022</h3>
             </div>
           </div>
           <br/>

@@ -1,6 +1,5 @@
 import React, {Component} from "react";
-import {Navbar, Nav, Container, ToggleButton} from 'react-bootstrap'
-import Switch from "react-bootstrap/esm/Switch";
+import {Navbar, Nav, Container } from 'react-bootstrap'
 import '../Pages/Home.css'
 
 class NavComp extends Component {
@@ -25,6 +24,16 @@ class NavComp extends Component {
                         {/* <Nav.Link href="/sponsors">Partners and Sponsors</Nav.Link> */}
                     </Nav>
                     </Navbar.Collapse>
+                </Container>
+                </Navbar>
+            </div>
+            <div >
+                <Navbar bg='none' variant="dark" expand="lg">
+                <Container>
+                    <Navbar.Brand href="/">
+                        <img src='logo192.png' style={{width: 50, height: 'auto'}} alt='' />
+                    </Navbar.Brand>
+                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 </Container>
                 </Navbar>
             </div>

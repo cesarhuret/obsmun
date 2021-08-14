@@ -20,7 +20,7 @@ class OBSMUN extends Component {
           <div style={{position: "relative"}}>
             <img style={{maxWidth: '100%', height: 'auto'}} src='exobsmun.png' alt=''/>
             <div className="center">
-              <h1 style={{fontSize: '7vh'}}>The OBSMUN</h1>
+              <h1 className='white' style={{fontSize: '7vh'}}>The OBSMUN</h1>
             </div>
           </div>
           <br/>
