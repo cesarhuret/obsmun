@@ -29,11 +29,11 @@ class OBSMUN extends Component {
               <Col xs={{span: 12, order: 2}} lg={{span: 8, order: 1}}>
                 <div className="rounded shadow-lg p-5" style={{borderStyle: "none"}}>
                     <h1>What is the OBSMUN?</h1>
-                    <p>Random text I have generated to fill space in this location. We shall determine this later, but for now I’m just putting this so you guys can see about the size of the things we need to write. More random text, because let’s face it, we’ll probably need to write more. But anyways… what does more text mean except a filler in our website as a way for us to seem more credible. How have we a society evolved to trust more what we perceive as pretty than what we perceive as useful. Anyways, how have your holidays been so far? Fun, interesting? Ok anyways, I’d better stop: this is more or less the correct amount of text.</p>
+                    <p>During the OBSMUN 2022 conference, delegates will have the distinct opportunity to develop their knowledge and also, skills alongside enthusiastic delegates from around the globe! In the majority of OBSMUN’s committees, a clause-by-clause procedure shall have ensued; delegates may prepare draft clauses and deliberate upon them during committee sessions. Thereafter, voting on their adoption and formulating a final resolution with the inclusion of numerous clauses.</p>
                 </div>
               </Col>
               <Col xs={{span: 12, order: 1}} lg={{span: 4, order: 2}}>
-                <div className="p-2 cardhover round"><img className="rounded img-fluid shadow-lg" src="obsmuncouncil.png" alt=''/></div>
+                <div className="p-2 cardhover"><img className="rounded img-fluid shadow-lg" src="obsmuncouncil.png" alt=''/></div>
               </Col>
             </Row>
             <Row className="align-items-center">
