@@ -36,7 +36,7 @@ class Home extends Component {
                 </div>
               </Col>
               <Col xs={{span: 12, order: 1}} lg={{span: 6, order: 2}}>
-                <div className="p-5"><img className="rounded img-fluid shadow-lg" src="obscampus.png" alt=''/></div>
+                <div className="p-5"><img className="rounded img-fluid shadow-lg" src="obscampus.jpg" alt=''/></div>
               </Col>
             </Row>
             <Row className="align-items-center">
@@ -51,30 +51,6 @@ class Home extends Component {
                 </div>
               </Col>
             </Row>
-            {/* <Row className="align-items-center">
-              <Col xs={{span: 12, order: 2}} lg={{span: 6, order: 1}}>
-                <div className="rounded shadow-lg p-5" style={{borderStyle: "none"}}>
-                  <h1>Documentation</h1>
-                  <p>Please find attached a collection of documents containing all the important information about our conference and your role in it.</p>
-                  <Button href="/obs">More Info</Button>
-                </div>
-              </Col>
-              <Col xs={{span: 12, order: 1}} lg={{span: 6, order: 2}}>
-                <div className="p-5"><img className="rounded img-fluid shadow-lg" src="munempty.png" alt=''/></div>
-              </Col>
-            </Row> */}
-            {/* <Row className="align-items-center">
-              <Col xs={{span: 12, order: 2}} lg={{span: 6, order: 2}}>
-                <div className="p-5"><img className="rounded img-fluid shadow-lg" src="exobsmun.png" alt=''/></div>
-              </Col>
-              <Col xs={{span: 12, order: 1}} lg={{span: 6, order: 1}}>
-                <div className="rounded shadow-lg p-5" style={{borderStyle: "none"}}>
-                  <h1>Register</h1>
-                  <p>Interested in attending the 2022 OBSMUN?<br/>Register before the end of January 2022!</p>
-                  <Button href="/registration">More Info</Button>
-                </div>
-              </Col>
-            </Row> */}
           </Container>
           {/* <Container>
             <h2>Our Partners</h2>
