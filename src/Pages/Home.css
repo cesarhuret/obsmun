@@ -29,12 +29,16 @@ img {
 }
 
 .cardhover {
-    transition: box-shadow .3s;
+    transition: .3s;
 }
 .cardhover:hover {
-    box-shadow: 0 0 51px rgba(0, 0, 0, 0.2); 
+    box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.2); 
+    transform: scale(1.05);
 }
 
 .navlink {
     transition: .3s;
+}
+.navlink:hover {
+    transform: scale(1.05);
 }

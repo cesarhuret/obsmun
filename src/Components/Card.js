@@ -14,7 +14,8 @@ class CardComp extends Component {
                             <Card.Img variant="top" src="pedro.png" />
                             <Card.Body>
                                 <Card.Title style={{color: "white"}}>Pedro Pinho</Card.Title>
-                                {/* <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle> */}
+                                <Card.Subtitle className="mb-2">Head of Logistics</Card.Subtitle>
+                                <Card.Subtitle className="mb-2 text-muted">Chief of Staff</Card.Subtitle>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -23,7 +24,8 @@ class CardComp extends Component {
                             <Card.Img variant="top" src="jp.png" />
                             <Card.Body>
                                 <Card.Title className='white'>Joao Pedro Bastos</Card.Title>
-                                {/* <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle> */}
+                                <Card.Subtitle className="mb-2">Head of Public Relations</Card.Subtitle>
+                                <Card.Subtitle className="mb-2 text-muted">Chair of Committee</Card.Subtitle>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -32,7 +34,8 @@ class CardComp extends Component {
                             <Card.Img variant="top" src="lara.png" />
                             <Card.Body>
                                 <Card.Title>Lara Machado</Card.Title>
-                                {/* <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle> */}
+                                <Card.Subtitle className="mb-2">Head of Communications</Card.Subtitle>
+                                <Card.Subtitle className="mb-2 text-muted">Conference Services Liaison</Card.Subtitle>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -41,7 +44,8 @@ class CardComp extends Component {
                             <Card.Img variant="top" src="miguel.png" />
                             <Card.Body>
                                 <Card.Title>Miguel Castro</Card.Title>
-                                {/* <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle> */}
+                                <Card.Subtitle className="mb-2">Head of Finance</Card.Subtitle>
+                                <Card.Subtitle className="mb-2 text-muted">Chair of Committee</Card.Subtitle>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -55,7 +59,7 @@ class CardComp extends Component {
                             <Card.Img variant="top" src="soham.png" />
                             <Card.Body>
                                 <Card.Title>Soham Malhotra</Card.Title>
-                                <Card.Subtitle className="mb-2 text-muted">Secretary-General</Card.Subtitle>
+                                <Card.Subtitle className="mb-2">Secretary-General</Card.Subtitle>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -64,6 +68,7 @@ class CardComp extends Component {
                             <Card.Img variant="top" src="joao.png" />
                             <Card.Body>
                                 <Card.Title>Joao Araujo</Card.Title>
+                                <Card.Subtitle className="mb-2">Head of Training</Card.Subtitle>
                                 <Card.Subtitle className="mb-2 text-muted">Deputy Secretary-General</Card.Subtitle>
                             </Card.Body>
                         </Card>
