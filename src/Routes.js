@@ -35,7 +35,7 @@ export function Routes() {
                 </Route>
                 <Route path="/registration">
                     
-                    {/* <Registration/> */}
+                    <Registration/>
 
                 </Route>
                 <Route path="/sponsors">

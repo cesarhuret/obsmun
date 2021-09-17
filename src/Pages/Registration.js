@@ -18,9 +18,9 @@ class Registration extends Component {
         return ( 
         <div className="App">
           <div style={{position: "relative"}}>
-            <img style={{maxWidth: '100%', height: 'auto'}} src='obsregistration.png' alt='' />
+            <img style={{maxWidth: '100%', height: 'auto'}} src='registration.JPG' alt='' />
             <div className="center">
-              <h1 className='white' style={{fontSize: '7vh'}}>Registration</h1>
+              <h1 className='black' style={{fontSize: '7vh'}}>Registration</h1>
             </div>
           </div>
           <br/>
