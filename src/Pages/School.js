@@ -31,7 +31,7 @@ class School extends Component {
                 <div className="rounded shadow-lg p-5" style={{borderStyle: "none", fontSize: 20}}>
                     <p>The Oporto British School is the oldest British school in continental Europe. It dates back to 1894, and since then OBS has devoted itself to help students excel. </p>
                     <p>Known for its warm welcome, small class-sizes and very friendly environment, the OBS takes pride in being a unified community, a family. The OBS also takes its culture of respect, manners and academic rigour to the utmost of importance in order for every student to lead a successful academic career in a safe environment. </p>
-                    <p>The OBS motto is "To strive for success and to serve"; every student, parent and staff member embodies this motto in order to enhance the sense of community the school has, in addition to making it more thoughtful and reflective.</p>
+                    <p>The OBS motto is "Knowledge. Vision. Humanity."; every student, parent and staff member embodies this motto in order to enhance the sense of community the school has, in addition to making it more thoughtful and reflective.</p>
                 </div>
               </Col>
               <Col xs={{span: 12, order: 1}} lg={{span: 4, order: 2}}>
