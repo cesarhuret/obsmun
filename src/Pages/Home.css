@@ -42,3 +42,11 @@ img {
 .navlink:hover {
     transform: scale(1.05);
 }
+
+.navlink2 {
+    transition: .3s;
+    border-radius: 0.3rem;
+}
+.navlink2:hover {
+    background-color: rgba(0, 29, 71, 0.8);
+}

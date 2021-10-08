@@ -6,10 +6,10 @@ class CardComp extends Component {
   render() {
         return ( 
         <div className="App">
-            <Container style={{textAlign: "left"}}>
-                <h2 style={{ padding: 10}} className='shadow-lg rounded'>Executive Team</h2>
+            <Container style={{textAlign: "left", paddingLeft: '5%', paddingRight: '5%'}} fluid>
+                <h2 style={{ padding: 10, backgroundColor: 'rgba(0, 0, 0, 0.1)'}} className='shadow-lg rounded'>Executive Team</h2>
                 <Row className='justify-content-center'>
-                    <Col xs={{span: 12, order: 1}} lg={{span: 3, order: 1}} style={{paddingBottom: 30}}>
+                    <Col xs={{span: 12, order: 1}} lg={{span: 2, order: 1}} style={{paddingBottom: 30}}>
                         <Card text='white' bg="dark" className='cardhover' style={{border: 'none'}}>
                             <Card.Img variant="top" src="pedro.png" />
                             <Card.Body>
@@ -19,7 +19,7 @@ class CardComp extends Component {
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col xs={{span: 12, order: 2}} lg={{span: 3, order: 2}} style={{paddingBottom: 30}}>
+                    <Col xs={{span: 12, order: 2}} lg={{span: 2, order: 2}} style={{paddingBottom: 30}}>
                         <Card text='white' bg="dark" className='cardhover' style={{border: 'none'}}>
                             <Card.Img variant="top" src="jp.png" />
                             <Card.Body>
@@ -29,7 +29,7 @@ class CardComp extends Component {
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col xs={{span: 12, order: 4}} lg={{span: 3, order: 4}} style={{paddingBottom: 30}}>
+                    <Col xs={{span: 12, order: 4}} lg={{span: 2, order: 4}} style={{paddingBottom: 30}}>
                         <Card text='white' bg="dark" className='cardhover' style={{border: 'none'}}>
                             <Card.Img variant="top" src="lara.png" />
                             <Card.Body>
@@ -39,7 +39,7 @@ class CardComp extends Component {
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col xs={{span: 12, order: 5}} lg={{span: 3, order: 5}} style={{paddingBottom: 30}}>
+                    <Col xs={{span: 12, order: 5}} lg={{span: 2, order: 5}} style={{paddingBottom: 30}}>
                         <Card text='white' bg="dark" className='cardhover' style={{border: 'none'}}>
                             <Card.Img variant="top" src="miguel.png" />
                             <Card.Body>
@@ -49,27 +49,12 @@ class CardComp extends Component {
                             </Card.Body>
                         </Card>
                     </Col>
-                </Row>
-                <div style={{ paddingTop: 10}}>
-                    <h2  style={{ padding: 10}} className='shadow-lg rounded'>Secretary-Generals</h2>
-                </div>
-                <Row className='justify-content-center'>
-                    <Col xs={{span: 12, order: 1}} lg={{span: 4, order: 1}}>
-                        <Card text='white' bg="dark" className='cardhover' style={{border: 'none'}}>
-                            <Card.Img variant="top" src="soham.png" />
-                            <Card.Body>
-                                <Card.Title>Soham Malhotra</Card.Title>
-                                <Card.Subtitle className="mb-2">Secretary-General</Card.Subtitle>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col xs={{span: 12, order: 2}} lg={{span: 4, order: 2}}>
+                    <Col xs={{span: 12, order: 2}} lg={{span: 2, order: 6}}>
                         <Card text='white' bg="dark" className='cardhover' style={{border: 'none'}}>
                             <Card.Img variant="top" src="joao.png" />
                             <Card.Body>
                                 <Card.Title>Joao Araujo</Card.Title>
-                                <Card.Subtitle className="mb-2">Head of Training</Card.Subtitle>
-                                <Card.Subtitle className="mb-2 text-muted">Deputy Secretary-General</Card.Subtitle>
+                                <Card.Subtitle className="mb-2">Secretary General</Card.Subtitle>
                             </Card.Body>
                         </Card>
                     </Col>
