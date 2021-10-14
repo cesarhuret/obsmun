@@ -10,6 +10,7 @@ class FootComp extends Component {
                 <Nav.Link className='navlink' href={"mailto:obsmun2022@gmail.com"}>Email</Nav.Link>
                 <Nav.Link className='navlink' href="https://www.instagram.com/obsmun2022/" target='_blank'>Instagram</Nav.Link>
                 <Nav.Link className='navlink' href="https://m.facebook.com/obsmun2022/" target='_blank'>Facebook</Nav.Link>
+                {/* <Nav.Link>Twitter</Nav.Link> */}
             </Navbar>
             <p style={{ color: "gray"}}>Address:  Rua Da Cerca, 338, Porto, Portugal</p>
             <p style={{ color: "gray"}}>Photos used in this website are not property of OBSMUN; they are copyrighted by their respective owner</p>

@@ -3,6 +3,7 @@ import './App.css';
 import { Routes } from './Routes'
 import { BrowserRouter as Router, } from "react-router-dom";
 import NavComp from "./Components/Navbar";
+import FootComp from "./Components/Footer";
 class App extends Component {
 
   render() {
@@ -11,7 +12,7 @@ class App extends Component {
             <Router> 
                 <NavComp></NavComp>
                 <Routes />
-                {/* <FootComp/> */}
+                <FootComp></FootComp>
             </Router>
           </div>
         );
