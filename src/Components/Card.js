@@ -6,8 +6,12 @@ class CardComp extends Component {
   render() {
         return ( 
         <div className="App">
+<<<<<<< Updated upstream
             <Container style={{textAlign: "left"}}>
                 <h2 style={{ padding: 10}} className='shadow-lg rounded'>Executive Team</h2>
+=======
+            <Container style={{textAlign: "left", paddingLeft: '5%', paddingRight: '5%'}} fluid>
+>>>>>>> Stashed changes
                 <Row className='justify-content-center'>
                     <Col xs={{span: 12, order: 1}} lg={{span: 3, order: 1}} style={{paddingBottom: 30}}>
                         <Card text='white' bg="dark" className='cardhover' style={{border: 'none'}}>
@@ -69,7 +73,11 @@ class CardComp extends Component {
                             <Card.Body>
                                 <Card.Title>Joao Araujo</Card.Title>
                                 <Card.Subtitle className="mb-2">Head of Training</Card.Subtitle>
+<<<<<<< Updated upstream
                                 <Card.Subtitle className="mb-2 text-muted">Deputy Secretary-General</Card.Subtitle>
+=======
+                                <Card.Subtitle className="mb-2 text-muted">Secretary General</Card.Subtitle>
+>>>>>>> Stashed changes
                             </Card.Body>
                         </Card>
                     </Col>
