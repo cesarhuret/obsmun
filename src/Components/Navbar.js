@@ -24,9 +24,9 @@ class NavComp extends Component {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ml-auto">
-                        <Nav.Link className='navlink' href="/">Home</Nav.Link>
-                        <Nav.Link className='navlink' href="/obs">Our School</Nav.Link>
-                        <Nav.Link className='navlink' href="/obsmun">The OBSMUN</Nav.Link>
+                        <Nav.Link className='navlink2' href="/">Home</Nav.Link>
+                        <Nav.Link className='navlink2' href="/obs">Our School</Nav.Link>
+                        <Nav.Link className='navlink2' href="/obsmun">The OBSMUN</Nav.Link>
                         {/* <Nav.Link href="/documents">Documents</Nav.Link> */}
                         <Nav.Link className='navlink2' href="/team">The Team</Nav.Link>
                         <Nav.Link className='navlink2' href="/registration">Registration</Nav.Link>
