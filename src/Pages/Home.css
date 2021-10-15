@@ -41,9 +41,7 @@ img {
 }
 .navlink:hover {
     transform: scale(1.05);
-<<<<<<< Updated upstream
-}
-=======
+
 }
 
 .navlink2 {
@@ -62,4 +60,3 @@ img {
     filter: blur(1px);
     -webkit-filter: blur(1px);
   }
->>>>>>> Stashed changes

@@ -28,13 +28,8 @@ class NavComp extends Component {
                         <Nav.Link className='navlink' href="/obs">Our School</Nav.Link>
                         <Nav.Link className='navlink' href="/obsmun">The OBSMUN</Nav.Link>
                         {/* <Nav.Link href="/documents">Documents</Nav.Link> */}
-<<<<<<< Updated upstream
-                        <Nav.Link className='navlink' href="/team">Meet The Team</Nav.Link>
-                        <Nav.Link className='navlink' href="/registration">Registration</Nav.Link>
-=======
                         <Nav.Link className='navlink2' href="/team">The Team</Nav.Link>
                         <Nav.Link className='navlink2' href="/registration">Registration</Nav.Link>
->>>>>>> Stashed changes
                         {/* <Nav.Link href="/sponsors">Partners and Sponsors</Nav.Link> */}
                     </Nav>
                     </Navbar.Collapse>
