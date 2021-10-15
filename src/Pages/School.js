@@ -49,7 +49,7 @@ class School extends Component {
           </MobileView>
           <BrowserView>
             <div className='backgroundImage' style={{ backgroundImage: 'url("https://obsmun.org/obscampus.jpg")'}}/>
-            <Parallax pages={2.9} style={{top: '0', left: '0'}}>
+            <Parallax pages={3} style={{top: '0', left: '0'}}>
               <ParallaxLayer offset={0} speed={0.5}>
                   <div className="center">
                     <h1 className='white' style={{fontSize: '7vh'}}>Our School</h1>

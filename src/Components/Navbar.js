@@ -18,9 +18,6 @@ class NavComp extends Component {
                         <Nav.Link className='navlink2' href="https://www.instagram.com/obsmun2022/">
                             <img src='/instagram.png' style={{height: '1.7em', opacity: '0.5'}}/>
                         </Nav.Link>
-                        <Nav.Link className='navlink2' href="https://m.facebook.com/obsmun2022/">
-                            <img src='/facebook.png' style={{height: '1.8em', opacity: '0.5'}}/>
-                        </Nav.Link>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ml-auto">
