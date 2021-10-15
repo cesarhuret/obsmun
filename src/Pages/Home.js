@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
 import './Home.css'
+import { useSpring, animated } from 'react-spring'
 import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 import { BrowserView, MobileView } from 'react-device-detect';
 
@@ -64,7 +65,7 @@ class Home extends Component {
           </MobileView>
           <BrowserView>
           <div className='backgroundImage' style={{ backgroundImage: 'url("https://i.imgur.com/dqAtAv6.png")'}}/>
-            <Parallax pages={1.9} style={{top: '0', left: '0'}}>
+            <Parallax pages={2} style={{top: '0', left: '0'}}>
               <ParallaxLayer offset={0} speed={0.5}>
                   <div className="homecenter">
                     <h1 className='white' style={{fontSize: '5vw'}}>Oporto British School</h1>
