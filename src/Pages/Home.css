@@ -48,5 +48,14 @@ img {
     border-radius: 0.3rem;
 }
 .navlink2:hover {
-    background-color: rgba(0, 29, 71, 0.8);
+    background-color: rgba(0, 29, 71, 0.5);
 }
+
+.backgroundImage {
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
+  }
