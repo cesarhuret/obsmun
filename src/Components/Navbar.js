@@ -15,7 +15,7 @@ class NavComp extends Component {
                         <Nav.Link className='navlink2' href={"mailto:obsmun2022@gmail.com"}>
                             <img src='/email.png' style={{height: '2em', opacity: '0.5'}}/>
                         </Nav.Link>
-                        <Nav.Link className='navlink2' href="https://www.instagram.com/obsmun2022/">
+                        <Nav.Link className='navlink2' href="https://www.instagram.com/obsmun2022/" target='_blank'>
                             <img src='/instagram.png' style={{height: '1.7em', opacity: '0.5'}}/>
                         </Nav.Link>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />

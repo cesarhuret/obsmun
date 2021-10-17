@@ -52,10 +52,34 @@ img {
 }
 
 .backgroundImage {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+.backgroundImageFull {
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    filter: blur(1px);
-    -webkit-filter: blur(1px);
+    background-attachment: fixed;
+  }
+
+.bounce {
+    -moz-animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+    animation: bounce 2s infinite;
+  }
+  
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-30px);
+    }
+    60% {
+      transform: translateY(-15px);
+    }
   }

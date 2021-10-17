@@ -1,7 +1,6 @@
 import React, {Component} from "react";
 import {Col, Container, Nav, Row } from "react-bootstrap";
 import './Home.css'
-import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 import { BrowserView, MobileView } from 'react-device-detect';
 class Registration extends Component {
 
@@ -32,30 +31,27 @@ class Registration extends Component {
             </Container>
           </MobileView>
           <BrowserView>
-            <div className='backgroundImage' style={{ backgroundImage: 'url("https://obsmun.org/registration.JPG")'}}/>
-            <Parallax pages={1.7} style={{top: '0', left: '0'}}>
-            <ParallaxLayer offset={0} speed={0.5}>
-              <div className="center">
-                <h1 className='black' style={{fontSize: '7vh'}}>Registration</h1>
-              </div>
-            </ParallaxLayer>
-            <ParallaxLayer offset={1} speed={0.5}>
-              <Container style={{textAlign: "center"}} fluid>
-                <Row className="align-items-center">
-                  <Col lg={{span: 6, order: 1}}>
-                    <div className="rounded shadow-lg p-5" style={{borderStyle: "none", backgroundColor: 'rgba(255, 255, 255, 0.9)'}}>
-                        <Nav.Link className='navlink' href='https://forms.gle/NcXXGsAE5Z2VVAZ1A' target='_blank' style={{fontSize: '3vh'}}>Register as an Individual Delegate</Nav.Link>
+            <div className='backgroundImageFull' style={{ backgroundImage: 'url("https://obsmun.org/registration.JPG")'}}>
+              <Container style={{textAlign: "center", paddingLeft: '5%', paddingRight: '5%'}} fluid>
+                <Row style={{paddingTop: '15%', paddingLeft: '10%'}}>
+                    <div data-aos="fade-up">
+                        <h1 className='white' style={{fontSize: '7vh'}}>Register</h1>
                     </div>
-                  </Col>
-                  <Col lg={{span: 6, order: 2}}>
-                    <div className="rounded shadow-lg p-5" style={{borderStyle: "none", backgroundColor: 'rgba(255, 255, 255, 0.9)'}}>
-                        <Nav.Link className='navlink' href='https://forms.gle/X25YqoNydeNnc5UWA' target='_blank' style={{fontSize: '3vh'}}>Register as a School</Nav.Link>
-                    </div>
-                  </Col>
+                </Row>
+                <Row className="align-items-center" style={{paddingTop: '5%'}}>
+                    <Col lg={{span: 6, order: 1}} style={{paddingBottom: '10px'}} data-aos="fade-down">
+                      <div className="shadow-lg p-5" style={{borderStyle: "none", backgroundColor: 'rgba(5, 5, 5, 0.9)', borderRadius: '1rem'}}>
+                          <Nav.Link className="navlink" href='https://forms.gle/NcXXGsAE5Z2VVAZ1A' target='_blank' style={{fontSize: '3vh'}}>Register as an Individual Delegate</Nav.Link>
+                      </div>
+                    </Col>
+                    <Col lg={{span: 6, order: 2}} data-aos="fade-up">
+                      <div className="shadow-lg p-5" style={{borderStyle: "none", backgroundColor: 'rgba(5, 5, 5, 0.9)', borderRadius: '1rem'}}>
+                          <Nav.Link className="navlink" href='https://forms.gle/X25YqoNydeNnc5UWA' target='_blank' style={{fontSize: '3vh'}}>Register as a School</Nav.Link>
+                      </div>
+                    </Col>
                 </Row>
               </Container>
-              </ParallaxLayer>
-            </Parallax>
+            </div>
           </BrowserView>
         </div>
         )
