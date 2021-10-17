@@ -3,6 +3,16 @@ import {Navbar, Nav, Container } from 'react-bootstrap'
 import '../Pages/Home.css'
 
 class NavComp extends Component {
+    mobile = false;
+    constructor() {
+      super()
+      if(isMobile) {
+        this.mobile = true
+      } else if(isDesktop) {
+        this.mobile = false
+      }
+    }
+    
   render() {
         return ( 
         <div className="App">

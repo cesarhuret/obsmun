@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
 import './Home.css'
-import { BrowserView, isDesktop, isMobile, MobileView } from 'react-device-detect';
+import { isDesktop, isMobile } from 'react-device-detect';
 class Home extends Component {
   
   mobile = false;
@@ -17,7 +17,6 @@ class Home extends Component {
   render() {
         return ( 
         <div className="App">
-          <h1>{this.text}</h1>
             <div className='backgroundImage' style={{ backgroundImage: 'url("https://i.imgur.com/dqAtAv6.png")'}}>
                 <Container style={{textAlign: "left", paddingBottom: '4%'}}>
                   { this.mobile ?
@@ -67,8 +66,9 @@ class Home extends Component {
                     </Col>
                     <Col xs={{span: 12, order: 1}} lg={{span: 6, order: 2}}>
                       <div className="p-5">
-                        <BrowserView><img data-aos="fade-left" className="rounded img-fluid shadow-lg" src="obscampus.jpg" alt=''/></BrowserView>
-                        <MobileView><img data-aos="fade-up" className="rounded img-fluid shadow-lg" src="obscampus.jpg" alt=''/></MobileView>
+                        { this.mobile ? <img data-aos="fade-up" className="rounded img-fluid shadow-lg" src="obscampus.jpg" alt=''/>
+                          : <img data-aos="fade-left" className="rounded img-fluid shadow-lg" src="obscampus.jpg" alt=''/>
+                        }
                       </div>
                     </Col>
                   </Row>

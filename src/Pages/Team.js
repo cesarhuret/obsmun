@@ -1,14 +1,25 @@
 import React, {Component} from "react";
 import {Card, Col, Container, Row} from 'react-bootstrap'
 import './Home.css'
-import { BrowserView, MobileView } from 'react-device-detect';
+import { isDesktop, isMobile } from 'react-device-detect';
 
 class Team extends Component {
 
-  render() {
+    mobile = false;
+    constructor() {
+      super()
+      if(isMobile) {
+        this.mobile = true
+      } else if(isDesktop) {
+        this.mobile = false
+      }
+    }
+
+    render() {
         return ( 
         <div className="App">
-          <MobileView>
+        { this.mobile ? 
+          <>
             <div style={{position: "relative"}}>
               <img style={{maxWidth: '100%', height: 'auto'}} src='obsinside.jpg' alt=''/>
               <div className="center">
@@ -79,8 +90,9 @@ class Team extends Component {
                       </Col>
                   </Row>
               </Container>
-          </MobileView>
-          <BrowserView>
+          </>
+            :
+          <>
           <div className='backgroundImageFull' style={{ backgroundImage: 'url("https://i.imgur.com/fLbkrHm.jpg")'}}>
             <Container style={{textAlign: "center", paddingLeft: '5%', paddingRight: '5%'}} fluid>
                 <Row style={{paddingTop: '10%', paddingLeft: '10%'}}>
@@ -151,7 +163,8 @@ class Team extends Component {
                   </Row>
               </Container>
               </div>
-          </BrowserView>
+          </>
+        }
         </div>
         )
     }

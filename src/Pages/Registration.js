@@ -1,36 +1,48 @@
 import React, {Component} from "react";
 import {Col, Container, Nav, Row } from "react-bootstrap";
 import './Home.css'
-import { BrowserView, MobileView } from 'react-device-detect';
+import { isMobile, isDesktop } from 'react-device-detect';
 class Registration extends Component {
+
+  mobile = false;
+  constructor() {
+    super()
+    if(isMobile) {
+      this.mobile = true
+    } else if(isDesktop) {
+      this.mobile = false
+    }
+  }
 
   render() {
         return ( 
         <div className="App">
-          <MobileView>
+          { this.mobile ?
+          <>
             <div style={{position: "relative"}}>
               <img style={{maxWidth: '100%', height: 'auto'}} src='registration.jpg' alt='' />
               <div className="center">
-                <h1 className='black' style={{fontSize: '7vh'}}>Registration</h1>
+                <h1 className='black' style={{fontSize: '7vh'}} data-aos="fade-down">Registration</h1>
               </div>
             </div>
             <br/>
             <Container style={{textAlign: "center"}} fluid>
               <Row className="align-items-center">
                 <Col lg={{span: 6, order: 1}}>
-                  <div className="rounded shadow-lg p-5" style={{borderStyle: "none"}}>
+                  <div className="rounded shadow-lg p-5" data-aos="fade-up" style={{borderStyle: "none"}}>
                       <Nav.Link className='navlink' href='https://forms.gle/NcXXGsAE5Z2VVAZ1A' target='_blank' style={{fontSize: '3vh'}}>Register as an Individual Delegate</Nav.Link>
                   </div>
                 </Col>
                 <Col lg={{span: 6, order: 2}}>
-                  <div className="rounded shadow-lg p-5" style={{borderStyle: "none"}}>
+                  <div className="rounded shadow-lg p-5" data-aos="fade-down" style={{borderStyle: "none"}}>
                       <Nav.Link className='navlink' href='https://forms.gle/X25YqoNydeNnc5UWA' target='_blank' style={{fontSize: '3vh'}}>Register as a School</Nav.Link>
                   </div>
                 </Col>
               </Row>
             </Container>
-          </MobileView>
-          <BrowserView>
+          </>
+          : 
+          <>
             <div className='backgroundImageFull' style={{ backgroundImage: 'url("https://obsmun.org/registration.JPG")'}}>
               <Container style={{textAlign: "center", paddingLeft: '5%', paddingRight: '5%'}} fluid>
                 <Row style={{paddingTop: '15%', paddingLeft: '10%'}}>
@@ -52,7 +64,8 @@ class Registration extends Component {
                 </Row>
               </Container>
             </div>
-          </BrowserView>
+          </>
+        }
         </div>
         )
     }

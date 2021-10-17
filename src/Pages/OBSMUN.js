@@ -1,14 +1,25 @@
 import React, {Component} from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import './Home.css'
-import { BrowserView, MobileView } from 'react-device-detect';
+import { isDesktop, isMobile } from 'react-device-detect';
 
 class OBSMUN extends Component {
+
+  mobile = false;
+  constructor() {
+    super()
+    if(isMobile) {
+      this.mobile = true
+    } else if(isDesktop) {
+      this.mobile = false
+    }
+  }
 
   render() {
         return ( 
         <div className="App">
-          <MobileView>
+          { this.mobile ?
+          <>
             <div style={{position: "relative"}}>
               <img style={{maxWidth: '100%', height: 'auto'}} src='exobsmun.png' alt=''/>
               <div className="center">
@@ -43,8 +54,8 @@ class OBSMUN extends Component {
             <Col style={{padding: '1%'}}>
                       <iframe  className="shadow-lg rounded" title='iframe' style={{ overflow: "hidden", background:'none', width:'80vh', height:'40vh', maxWidth: '90%', border: 'none'}} src="https://maps.google.com/maps?q=Natixis,%20Rua%20de%20Santos%20Pousada%20220,%204000-478%20Porto&t=&z=13&ie=UTF8&iwloc=&output=embed" />
             </Col>
-          </MobileView>
-          <BrowserView>
+          </>
+          : <>
             <div className='backgroundImage' style={{ backgroundImage: 'url("https://obsmun.org/exobsmun.png")'}}>
               <Container style={{textAlign: "left", paddingBottom: '4%'}} fluid>
                 <Row style={{paddingTop: '20%', paddingLeft: '15%'}}>
@@ -85,7 +96,8 @@ class OBSMUN extends Component {
                 </Row>
               </Container>
             </div>
-          </BrowserView>
+          </>
+        }
         </div>
         )
     }
