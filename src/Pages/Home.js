@@ -21,7 +21,7 @@ class Home extends Component {
                 <Container style={{textAlign: "left", paddingBottom: '4%'}}>
                   { this.mobile ?
                     <>
-                      <Row style={{paddingTop: '30%', textAlign: "center"}}>
+                      <Row style={{paddingTop: '30%', textAlign: "center", marginLeft: 'auto', marginRight: 'auto'}}>
                         <div data-aos="fade-up">
                           <h1 className='white' style={{fontSize: '5vh', paddingTop: '7%'}}>Oporto British School</h1>
                           <h2 className='white' style={{fontSize: '3vh', paddingTop: '5%'}}>Model United Nations</h2>
