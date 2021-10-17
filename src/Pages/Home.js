@@ -79,12 +79,12 @@ class Home extends Component {
                     <Col xs={{span: 12, order: 2}} lg={{span: 6, order: 2}}>
                     <div className="p-2">
                     { this.mobile ?
-                          <div className="rounded shadow-lg p-5" style={{borderStyle: "none", backgroundColor: 'rgba(255, 255, 255, 0.9)'}} data-aos="fade-left">
+                          <div className="rounded shadow-lg p-3" style={{borderStyle: "none", backgroundColor: 'rgba(255, 255, 255, 0.9)'}} data-aos="fade-right">
                             <h1>2022 OBSMUN Conference</h1>
                             <p>We are glad to present the OBSMUN 2022 Conference. We hope this will provide you with the opportunity to improve your public speaking skills, whilst meeting new people and making new connections. See you there!</p>
                             <Button href="/obsmun">More Info</Button>
                           </div>
-                      :   <div className="rounded shadow-lg p-3" style={{borderStyle: "none", backgroundColor: 'rgba(255, 255, 255, 0.9)'}} data-aos="fade-right">
+                      :   <div className="rounded shadow-lg p-5" style={{borderStyle: "none", backgroundColor: 'rgba(255, 255, 255, 0.9)'}} data-aos="fade-left">
                             <h1>2022 OBSMUN Conference</h1>
                             <p>We are glad to present the OBSMUN 2022 Conference. We hope this will provide you with the opportunity to improve your public speaking skills, whilst meeting new people and making new connections. See you there!</p>
                             <Button href="/obsmun">More Info</Button>
