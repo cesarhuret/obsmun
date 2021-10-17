@@ -1,35 +1,22 @@
 import React, {Component} from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
 import './Home.css'
-import { BrowserView, isMobile, MobileView } from 'react-device-detect';
+import { BrowserView, isDesktop, isMobile, MobileView } from 'react-device-detect';
 class Home extends Component {
 
   constructor() {
     super()
     if(isMobile) {
-      console.log('this is on mobile')
+      this.text = 'mobile'
+    } else if(isDesktop) {
+      this.text = 'desktop' 
     }
   }
 
   render() {
         return ( 
         <div className="App">
-          {/* <Container>
-            <h2>Our Partners</h2>
-            <br/>
-            <Row>
-              <Col>
-                <img className="rounded img-fluid shadow-lg" src="https://i.imgur.com/dqAtAv6.png"/>
-              </Col>
-              <Col>
-                <img className="rounded img-fluid shadow-lg" src="https://i.imgur.com/dqAtAv6.png"/>
-              </Col>
-              <Col>
-                <img className="rounded img-fluid shadow-lg" src="https://i.imgur.com/dqAtAv6.png"/>
-              </Col>
-            </Row>
-          </Container> */}
-          {/* <CardComp></CardComp> */}
+          <h1>{this.text}</h1>
             <div className='backgroundImage' style={{ backgroundImage: 'url("https://i.imgur.com/dqAtAv6.png")'}}>
                 <Container style={{textAlign: "left", paddingBottom: '4%'}}>
                   <BrowserView>
