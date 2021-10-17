@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 import {Navbar, Nav, Container } from 'react-bootstrap'
 import '../Pages/Home.css'
+import { isDesktop, isMobile } from 'react-device-detect';
 
 class NavComp extends Component {
     mobile = false;
@@ -12,7 +13,7 @@ class NavComp extends Component {
         this.mobile = false
       }
     }
-    
+
   render() {
         return ( 
         <div className="App">
