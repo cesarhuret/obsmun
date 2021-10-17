@@ -1,21 +1,25 @@
-import React, { Component } from "react";
+import React, { useEffect } from "react";
 import './App.css';
 import { Routes } from './Routes'
 import { BrowserRouter as Router, } from "react-router-dom";
 import NavComp from "./Components/Navbar";
-import FootComp from "./Components/Footer";
-class App extends Component {
+import Aos from "aos";
+import "aos/dist/aos.css"
 
-  render() {
-        return (
-          <div className='App'>
-            <Router> 
-                <NavComp></NavComp>
-                <Routes />
-                <FootComp></FootComp>
-            </Router>
-          </div>
-        );
-  }
+function App () {
+
+  useEffect(() => {
+    Aos.init({duration: 1000})
+  }, []);
+
+  return (
+  <div className='App'>
+    <Router> 
+      <NavComp/>
+      <Routes />
+      {/* <FootComp/> */}
+    </Router>
+  </div>
+  );
 }
 export default App;
