@@ -22,11 +22,11 @@ class Registration extends Component {
             <div style={{position: "relative"}}>
               <img style={{maxWidth: '100%', height: 'auto'}} src='registration.jpg' alt='' />
               <div className="center">
-                <h1 className='black' style={{fontSize: '7vh'}} data-aos="fade-down">Registration</h1>
+                <h1 className='black' style={{fontSize: '7vh'}}>Registration</h1>
               </div>
             </div>
             <br/>
-            <Container style={{textAlign: "center"}} fluid>
+            <Container style={{textAlign: "center", paddingTop: '10%'}} fluid>
               <Row className="align-items-center">
                 <Col lg={{span: 6, order: 1}}>
                   <div className="rounded shadow-lg p-5" data-aos="fade-up" style={{borderStyle: "none"}}>
