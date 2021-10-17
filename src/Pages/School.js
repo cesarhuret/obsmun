@@ -2,14 +2,25 @@ import React, {Component} from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import './Home.css'
-import { BrowserView, MobileView } from 'react-device-detect';
+import { isMobile, isDesktop } from 'react-device-detect';
 
 class School extends Component {
+
+  mobile = false;
+  constructor() {
+    super()
+    if(isMobile) {
+      this.mobile = true
+    } else if(isDesktop) {
+      this.mobile = false
+    }
+  }
 
   render() {
         return ( 
         <div className="App">
-          <MobileView>
+          { this.mobile ? 
+          <>
             <div style={{position: "relative"}}>
               <img style={{maxWidth: '100%', height: 'auto'}} src='obscampus.jpg' alt=''/>
               <div className="center">
@@ -45,8 +56,9 @@ class School extends Component {
                 <h4>See more at <Link className='navlink' style={{textDecoration: 'none'}} to={{ pathname: "https://www.obs.edu.pt/en/"}} target="_blank">OBS</Link></h4>
               </div>
             </div>
-          </MobileView>
-          <BrowserView>
+          </>
+          :
+          <>
             <div className='backgroundImage' style={{ backgroundImage: 'url("http://obsmun.org/obsschool2.png")'}}>
               <Container style={{textAlign: "left", paddingBottom: '4%'}}>
               <Row style={{paddingTop: '30%'}}>
@@ -94,7 +106,8 @@ class School extends Component {
                   </Row>
               </Container>
               </div>
-          </BrowserView>
+          </>
+        }
         </div>
         )
     }
