@@ -1,8 +1,14 @@
 import React, {Component} from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
 import './Home.css'
-import { BrowserView, MobileView } from 'react-device-detect';
+import { BrowserView, isMobile, MobileView } from 'react-device-detect';
 class Home extends Component {
+
+  constructor() {
+    if(isMobile) {
+      console.log('this is on mobile')
+    }
+  }
 
   render() {
         return ( 
