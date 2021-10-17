@@ -47,7 +47,7 @@ class School extends Component {
             </div>
           </MobileView>
           <BrowserView>
-            <div className='backgroundImage' style={{ backgroundImage: 'url("http://localhost:3000/obsschool2.png")'}}>
+            <div className='backgroundImage' style={{ backgroundImage: 'url("http://obsmun.org/obsschool2.png")'}}>
               <Container style={{textAlign: "left", paddingBottom: '4%'}}>
               <Row style={{paddingTop: '30%'}}>
                     <div data-aos="fade-up">
