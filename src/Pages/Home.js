@@ -5,6 +5,7 @@ import { BrowserView, isMobile, MobileView } from 'react-device-detect';
 class Home extends Component {
 
   constructor() {
+    super()
     if(isMobile) {
       console.log('this is on mobile')
     }
