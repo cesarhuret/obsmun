@@ -21,12 +21,10 @@ class Home extends Component {
                 <Container style={{textAlign: "left", paddingBottom: '4%'}}>
                   { this.mobile ?
                     <>
-                      <Row style={{paddingTop: '30%', textAlign: "center", marginLeft: 'auto', marginRight: 'auto'}}>
-                        <div data-aos="fade-up">
+                      <Row style={{paddingTop: '30%', textAlign: "center", marginLeft: 'auto', marginRight: 'auto'}} data-aos="fade-up">
                           <h1 className='white' style={{fontSize: '5vh', paddingTop: '7%'}}>Oporto British School</h1>
                           <h2 className='white' style={{fontSize: '3vh', paddingTop: '5%'}}>Model United Nations</h2>
                           <h3 className='white' style={{fontSize: '4vh', paddingTop: '5%'}}>3rd to 5th February 2022</h3>
-                        </div>
                       </Row>
                       <Row style={{paddingTop: '10%', paddingBottom: '22%', opacity: '0.7', paddingLeft: '45%'}} data-aos="fade-up">
                         <div className='bounce'>
