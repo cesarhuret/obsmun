@@ -17,7 +17,7 @@ class Registration extends Component {
   render() {
         return ( 
         <div className="App">
-            <div className='backgroundImageFull' style={{ backgroundImage: 'url("https://obsmun.org/registration.JPG")'}}>
+            <div className='backgroundImageFull' style={{ backgroundImage: 'url("https://obsmun.org/registration.jpg")'}}>
               <Container style={{textAlign: "center", paddingLeft: '5%', paddingRight: '5%'}} fluid>
                 <Row style={{paddingTop: '15%', paddingLeft: '10%'}}>
                     <div data-aos="fade-up">
