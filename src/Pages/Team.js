@@ -151,15 +151,6 @@ class Team extends Component {
                               </Card.Body>
                           </Card>
                       </Col>
-                      <Col xs={{span: 12, order: 7}} lg={{span: 2, order: 7}} data-aos="fade-down">
-                          <Card text='white' bg="dark" className='cardhover' style={{border: 'none'}}>
-                              <Card.Img variant="top" src="cesar.png" />
-                              <Card.Body>
-                                  <Card.Title>Cesar Huret</Card.Title>
-                                  <Card.Subtitle className="mb-2">Website Developer</Card.Subtitle>
-                              </Card.Body>
-                          </Card>
-                      </Col>
                   </Row>
               </Container>
               </div>
