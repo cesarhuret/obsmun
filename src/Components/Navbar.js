@@ -23,7 +23,7 @@ class NavComp extends Component {
                     <Navbar.Brand href="/">
                         <img src='logo192.png' style={{width: 50, height: 'auto'}} alt='' />
                     </Navbar.Brand>
-                        <Nav.Link className='navlink2' href={"mailto:obsmun2022@gmail.com"}>
+                        <Nav.Link className='navlink2' href={"mailto:obsmun@obs.edu.pt"}>
                             <img src='/email.png' style={{height: '2em', opacity: '0.5'}}/>
                         </Nav.Link>
                         <Nav.Link className='navlink2' href="https://www.instagram.com/obsmun2022/" target='_blank'>
