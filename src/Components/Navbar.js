@@ -2,6 +2,7 @@ import React, {Component} from "react";
 import {Navbar, Nav, Container } from 'react-bootstrap'
 import '../Pages/Home.css'
 import { isDesktop, isMobile } from 'react-device-detect';
+import { Link } from "react-router-dom";
 
 class NavComp extends Component {
     mobile = false;
@@ -16,10 +17,10 @@ class NavComp extends Component {
 
   render() {
         return ( 
-        <div className="App">
+        <div>
             <div className="fixed-top">
-                <Navbar bg='none' variant="dark" expand="lg" fixed='top' style={{ position: "sticky", top: 0, backgroundColor: 'rgba(12, 47, 84, 0.7)'}}>
-                <Container>
+                <Navbar bg='none' variant="light" expand="lg" fixed='top' style={{ position: "sticky", top: 0, backgroundColor: 'white', paddingBottom: '0'}}>
+                <Container style={{paddingBottom: '0'}}>
                     <Navbar.Brand href="/">
                         <img src='logo192.png' style={{width: 50, height: 'auto'}} alt='' />
                     </Navbar.Brand>
@@ -31,13 +32,13 @@ class NavComp extends Component {
                         </Nav.Link>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="ml-auto">
-                        <Nav.Link className='navlink2' href="/">Home</Nav.Link>
-                        <Nav.Link className='navlink2' href="/obs">Our School</Nav.Link>
-                        <Nav.Link className='navlink2' href="/obsmun">The OBSMUN</Nav.Link>
+                    <Nav className="ml-auto" style={{fontFamily: 'Poppins', paddingBottom: '0'}}>
+                        <Link className='navlink2 bottomBorder' to='/'>Home</Link>
+                        <Link className='navlink2 bottomBorder' to='/obs'>Our School</Link>
+                        <Link className='navlink2 bottomBorder' to='/obsmun'>The OBSMUN</Link>
                         {/* <Nav.Link href="/documents">Documents</Nav.Link> */}
-                        <Nav.Link className='navlink2' href="/team">The Team</Nav.Link>
-                        <Nav.Link className='navlink2' href="/registration">Registration</Nav.Link>
+                        <Link className='navlink2 bottomBorder' to='/team'>The Team</Link>
+                        <Link className='navlink2 bottomBorder' to='/registration'>Registration</Link>
                         {/* <Nav.Link href="/sponsors">Partners and Sponsors</Nav.Link> */}
                     </Nav>
                     </Navbar.Collapse>
