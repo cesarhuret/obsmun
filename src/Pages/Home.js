@@ -57,9 +57,6 @@ class Home extends Component {
                   </div>
                   </Col>
                 </Row>
-                <Row className='justify-content-center' style={{paddingTop: '2rem'}} data-aos='fade-up'>
-                  <iframe src="https://obsmun2022.substack.com/embed" width="480" height="320" style={{backgroundColor: 'rgba(255, 255, 255, 0.9)', borderRadius: '0.3rem'}} frameborder="0" scrolling="no"></iframe>
-                </Row>
               </Container>
               </div>
           :
@@ -104,9 +101,6 @@ class Home extends Component {
                         </div>
                     </div>
                   </Col>
-                </Row>
-                <Row className='justify-content-center' style={{paddingTop: '2rem'}} data-aos='fade-up'>
-                  <iframe src="https://obsmun2022.substack.com/embed" width="480" height="320" style={{backgroundColor: 'rgba(255, 255, 255, 0.9)', borderRadius: '0.3rem'}} frameborder="0" scrolling="no"></iframe>
                 </Row>
               </Container>
             </div>
