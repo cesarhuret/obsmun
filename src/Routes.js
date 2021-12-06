@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Switch, BrowserRouter } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import Team from './Pages/Team';
 import Home from './Pages/Home'
 import School from './Pages/School';
@@ -8,7 +8,6 @@ import Registration from './Pages/Registration';
 
 export function Routes() {
     return (
-        <BrowserRouter>
             <Switch>
                 <Route exact path="/">                
                     <Home/>
@@ -49,7 +48,6 @@ export function Routes() {
 
                 </Route>
             </Switch>
-        </BrowserRouter>
 
     );
 }

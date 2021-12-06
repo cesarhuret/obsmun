@@ -18,7 +18,7 @@ class Registration extends Component {
         return ( 
         <div className="App">
             <div className='backgroundImageFull' style={{ backgroundImage: 'url("https://obsmun.org/registration.JPG")'}}>
-              <Container style={{textAlign: "center", paddingLeft: '5%', paddingRight: '5%'}} fluid>
+              <Container style={{textAlign: "center", paddingLeft: '5%', paddingRight: '5%', paddingTop: '5rem'}} fluid>
                 <Row style={{paddingTop: '15%', paddingLeft: '10%'}}>
                     <div data-aos="fade-up">
                         <h1 className='white' style={{fontSize: '7vh'}}>Register</h1>
