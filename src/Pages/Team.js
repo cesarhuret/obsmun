@@ -27,10 +27,10 @@ class Team extends Component {
               </div>
             </div>
             <br/>
-            <Container style={{textAlign: "left", paddingLeft: '5%', paddingRight: '5%'}} fluid>
+            <Container style={{textAlign: "left", paddingBlock: '10%', paddingInline: '10%'}} fluid>
                   <Row className='justify-content-center'>
                       <Col xs={{span: 12, order: 1}} lg={{span: 2, order: 1}} style={{paddingBottom: 30}}>
-                          <Card text='white' bg="dark" className='cardhover' style={{border: 'none'}}>
+                          <Card text='white' bg="dark" style={{border: 'none'}}>
                               <Card.Img variant="top" src="pedro.png" />
                               <Card.Body>
                                   <Card.Title style={{color: "white"}}>Pedro Pinho</Card.Title>
@@ -50,7 +50,7 @@ class Team extends Component {
                           </Card>
                       </Col>
                       <Col xs={{span: 12, order: 4}} lg={{span: 2, order: 4}} style={{paddingBottom: 30}}>
-                          <Card text='white' bg="dark" className='cardhover' style={{border: 'none'}}>
+                          <Card text='white' bg="dark"  style={{border: 'none'}}>
                               <Card.Img variant="top" src="lara.png" />
                               <Card.Body>
                                   <Card.Title>Lara Machado</Card.Title>
@@ -60,7 +60,7 @@ class Team extends Component {
                           </Card>
                       </Col>
                       <Col xs={{span: 12, order: 5}} lg={{span: 2, order: 5}} style={{paddingBottom: 30}}>
-                          <Card text='white' bg="dark" className='cardhover' style={{border: 'none'}}>
+                          <Card text='white' bg="dark"  style={{border: 'none'}}>
                               <Card.Img variant="top" src="miguel.png" />
                               <Card.Body>
                                   <Card.Title>Miguel Castro</Card.Title>
@@ -70,21 +70,12 @@ class Team extends Component {
                           </Card>
                       </Col>
                       <Col xs={{span: 12, order: 6}} lg={{span: 2, order: 6}}>
-                          <Card text='white' bg="dark" className='cardhover' style={{border: 'none'}}>
+                          <Card text='white' bg="dark"  style={{border: 'none'}}>
                               <Card.Img variant="top" src="joao.png" />
                               <Card.Body>
                                   <Card.Title>Joao Araujo</Card.Title>
                                   <Card.Subtitle className="mb-2">Head of Training</Card.Subtitle>
                                   <Card.Subtitle className="mb-2 text-muted">Secretary General</Card.Subtitle>
-                              </Card.Body>
-                          </Card>
-                      </Col>
-                      <Col xs={{span: 12, order: 7}} lg={{span: 2, order: 7}}>
-                          <Card text='white' bg="dark" className='cardhover' style={{border: 'none'}}>
-                              <Card.Img variant="top" src="cesar.jpg" />
-                              <Card.Body>
-                                  <Card.Title>Cesar Huret</Card.Title>
-                                  <Card.Subtitle className="mb-2">Website Developer</Card.Subtitle>
                               </Card.Body>
                           </Card>
                       </Col>
@@ -148,15 +139,6 @@ class Team extends Component {
                                   <Card.Title>Joao Araujo</Card.Title>
                                   <Card.Subtitle className="mb-2">Head of Training</Card.Subtitle>
                                   <Card.Subtitle className="mb-2 text-muted">Secretary General</Card.Subtitle>
-                              </Card.Body>
-                          </Card>
-                      </Col>
-                      <Col xs={{span: 12, order: 7}} lg={{span: 2, order: 7}} data-aos="fade-down">
-                          <Card text='white' bg="dark" className='cardhover' style={{border: 'none'}}>
-                              <Card.Img variant="top" src="cesar.jpg" />
-                              <Card.Body>
-                                  <Card.Title>Cesar Huret</Card.Title>
-                                  <Card.Subtitle className="mb-2">Website Developer</Card.Subtitle>
                               </Card.Body>
                           </Card>
                       </Col>
