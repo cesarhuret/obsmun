@@ -49,8 +49,8 @@ class OBSMUN extends Component {
                     </div>
                 </Row>
                 <Row className="align-items-center" style={{paddingTop: '5%'}}>
-                    <Col xs={{span: 12, order: 2}} lg={{span: 8, order: 1}} style={{paddingBottom: '10px'}} data-aos="fade-down">
-                      <div className="rounded  p-5" style={{borderStyle: "none", color: 'white'}} data-aos="fade-up">
+                    <Col xs={{span: 12, order: 2}} lg={{span: 8, order: 1}} className="rounded shadow-lg p-3" style={{borderStyle: "none", fontSize: 20, backgroundColor: 'white', paddingBottom: '10px'}} data-aos="fade-down">
+                      <div className="rounded  p-5" style={{borderStyle: "none", color: 'black'}} data-aos="fade-up">
                           <h1>What is the OBSMUN?</h1>
                           <p>During the OBSMUN 2022 conference, delegates will have the distinct opportunity to develop their knowledge and also, skills alongside enthusiastic delegates from around the globe! In the majority of OBSMUN’s committees, a clause-by-clause procedure shall have ensued; delegates may prepare draft clauses and deliberate upon them during committee sessions. Thereafter, voting on their adoption and formulating a final resolution with the inclusion of numerous clauses.</p>
                       </div>

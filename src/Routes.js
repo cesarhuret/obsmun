@@ -5,6 +5,7 @@ import Home from './Pages/Home'
 import School from './Pages/School';
 import OBSMUN from './Pages/OBSMUN';
 import Registration from './Pages/Registration';
+import { RedirectToHome } from './Pages/RedirectToHome';
 
 export function Routes() {
     return (
@@ -47,6 +48,8 @@ export function Routes() {
                     {/* <About/> */}
 
                 </Route>
+
+                <Route component={RedirectToHome} />
             </Switch>
 
     );
