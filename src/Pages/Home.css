@@ -50,17 +50,16 @@ img {
     font-weight: 500;
     display: flex;
     padding-inline: 0.4rem;
-    padding-block: 0.6rem;
+    padding-block: 0.5rem;
     align-items: center;
-    border-bottom: 2px solid rgba(34, 34, 34, 0);
 }
 
 .bottomBorder {
-  border-bottom: 2px solid rgba(34, 34, 34, 0);
+  border-bottom: 4px solid rgba(34, 34, 34, 0);
 }
 
 .bottomBorder:hover{
-  border-bottom: 2px solid rgba(34, 34, 34, 0.522);
+  border-bottom: 4px solid rgba(34, 34, 34, 0.522);
   text-decoration: none;
   color: rgba(0, 0, 0, 0.5);;
 }

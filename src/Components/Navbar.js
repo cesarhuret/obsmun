@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import {Navbar, Nav, Container } from 'react-bootstrap'
+import {Navbar, Nav, Container, NavDropdown } from 'react-bootstrap'
 import '../Pages/Home.css'
 import { isDesktop, isMobile } from 'react-device-detect';
 import { Link } from "react-router-dom";
@@ -24,12 +24,6 @@ class NavComp extends Component {
                     <Navbar.Brand href="/">
                         <img src='logo192.png' style={{width: 50, height: 'auto'}} alt='' />
                     </Navbar.Brand>
-                        <Nav.Link className='navlink2' href={"mailto:obsmun@obs.edu.pt"}>
-                            <img src='/email.png' style={{height: '2em', opacity: '0.5'}}/>
-                        </Nav.Link>
-                        <Nav.Link className='navlink2' href="https://www.instagram.com/obsmun2022/" target='_blank'>
-                            <img src='/instagram.png' style={{height: '1.7em', opacity: '0.5'}}/>
-                        </Nav.Link>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ml-auto" style={{fontFamily: 'Poppins', paddingBottom: '0'}}>
@@ -39,7 +33,10 @@ class NavComp extends Component {
                         {/* <Nav.Link href="/documents">Documents</Nav.Link> */}
                         <Link className='navlink2 bottomBorder' to='/team'>The Team</Link>
                         <Link className='navlink2 bottomBorder' to='/registration'>Registration</Link>
-                        {/* <Nav.Link href="/sponsors">Partners and Sponsors</Nav.Link> */}
+                        <NavDropdown className="navlink2 bottomBorder" title="Contacts" id="basic-nav-dropdown">
+                            <NavDropdown.Item href="https://www.instagram.com/obsmun2022/">Instagram</NavDropdown.Item>
+                            <NavDropdown.Item href="mailto:obsmun@obs.edu.pt">Email</NavDropdown.Item>
+                        </NavDropdown>
                     </Nav>
                     </Navbar.Collapse>
                 </Container>
