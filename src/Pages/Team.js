@@ -31,7 +31,7 @@ class Team extends Component {
                   <Row className='justify-content-center'>
                       <Col xs={{span: 12, order: 1}} lg={{span: 2, order: 1}} style={{paddingBottom: 30}}>
                           <Card text='white' bg="dark" style={{border: 'none'}}>
-                              <Card.Img variant="top" src="pedro.png" />
+                              <Card.Img variant="top" src="pedro.jpg" />
                               <Card.Body>
                                   <Card.Title style={{color: "white"}}>Pedro Pinho</Card.Title>
                                   <Card.Subtitle className="mb-2">Head of Logistics</Card.Subtitle>
@@ -41,7 +41,7 @@ class Team extends Component {
                       </Col>
                       <Col xs={{span: 12, order: 2}} lg={{span: 2, order: 2}} style={{paddingBottom: 30}}>
                           <Card text='white' bg="dark" className='cardhover' style={{border: 'none'}}>
-                              <Card.Img variant="top" src="jp.png" />
+                              <Card.Img variant="top" src="jp.jpg" />
                               <Card.Body>
                                   <Card.Title className='white'>Joao Pedro Bastos</Card.Title>
                                   <Card.Subtitle className="mb-2">Head of Public Relations</Card.Subtitle>
@@ -51,7 +51,7 @@ class Team extends Component {
                       </Col>
                       <Col xs={{span: 12, order: 4}} lg={{span: 2, order: 4}} style={{paddingBottom: 30}}>
                           <Card text='white' bg="dark"  style={{border: 'none'}}>
-                              <Card.Img variant="top" src="lara.png" />
+                              <Card.Img variant="top" src="lara.jpg" />
                               <Card.Body>
                                   <Card.Title>Lara Machado</Card.Title>
                                   <Card.Subtitle className="mb-2">Head of Communications</Card.Subtitle>
@@ -61,7 +61,7 @@ class Team extends Component {
                       </Col>
                       <Col xs={{span: 12, order: 5}} lg={{span: 2, order: 5}} style={{paddingBottom: 30}}>
                           <Card text='white' bg="dark"  style={{border: 'none'}}>
-                              <Card.Img variant="top" src="miguel.png" />
+                              <Card.Img variant="top" src="miguel.jpg" />
                               <Card.Body>
                                   <Card.Title>Miguel Castro</Card.Title>
                                   <Card.Subtitle className="mb-2">Head of Finance</Card.Subtitle>
@@ -71,7 +71,7 @@ class Team extends Component {
                       </Col>
                       <Col xs={{span: 12, order: 6}} lg={{span: 2, order: 6}}>
                           <Card text='white' bg="dark"  style={{border: 'none'}}>
-                              <Card.Img variant="top" src="joao.png" />
+                              <Card.Img variant="top" src="joao.jpg" />
                               <Card.Body>
                                   <Card.Title>Joao Araujo</Card.Title>
                                   <Card.Subtitle className="mb-2">Head of Training</Card.Subtitle>
@@ -94,7 +94,7 @@ class Team extends Component {
                 <Row className='justify-content-center' style={{paddingTop: '10%'}}>
                       <Col xs={{span: 12, order: 1}} lg={{span: 2, order: 1}} style={{paddingBottom: 30}} data-aos="fade-down">
                           <Card text='white' bg="dark" className='cardhover' style={{border: 'none'}}>
-                              <Card.Img variant="top" src="pedro.png" />
+                              <Card.Img variant="top" src="pedro.jpg" />
                               <Card.Body>
                                   <Card.Title style={{color: "white"}}>Pedro Pinho</Card.Title>
                                   <Card.Subtitle className="mb-2">Head of Logistics</Card.Subtitle>
@@ -104,7 +104,7 @@ class Team extends Component {
                       </Col>
                       <Col xs={{span: 12, order: 2}} lg={{span: 2, order: 2}} style={{paddingBottom: 30}} data-aos="fade-down">
                           <Card text='white' bg="dark" className='cardhover' style={{border: 'none'}}>
-                              <Card.Img variant="top" src="jp.png" />
+                              <Card.Img variant="top" src="jp.jpg" />
                               <Card.Body>
                                   <Card.Title className='white'>Joao Pedro Bastos</Card.Title>
                                   <Card.Subtitle className="mb-2">Head of Public Relations</Card.Subtitle>
@@ -114,7 +114,7 @@ class Team extends Component {
                       </Col>
                       <Col xs={{span: 12, order: 4}} lg={{span: 2, order: 4}} style={{paddingBottom: 30}} data-aos="fade-down">
                           <Card text='white' bg="dark" className='cardhover' style={{border: 'none'}}>
-                              <Card.Img variant="top" src="lara.png" />
+                              <Card.Img variant="top" src="lara.jpg" />
                               <Card.Body>
                                   <Card.Title>Lara Machado</Card.Title>
                                   <Card.Subtitle className="mb-2">Head of Communications</Card.Subtitle>
@@ -124,7 +124,7 @@ class Team extends Component {
                       </Col>
                       <Col xs={{span: 12, order: 5}} lg={{span: 2, order: 5}} style={{paddingBottom: 30}} data-aos="fade-down">
                           <Card text='white' bg="dark" className='cardhover' style={{border: 'none'}}>
-                              <Card.Img variant="top" src="miguel.png" />
+                              <Card.Img variant="top" src="miguel.jpg" />
                               <Card.Body>
                                   <Card.Title>Miguel Castro</Card.Title>
                                   <Card.Subtitle className="mb-2">Head of Finance</Card.Subtitle>
@@ -134,7 +134,7 @@ class Team extends Component {
                       </Col>
                       <Col xs={{span: 12, order: 6}} lg={{span: 2, order: 6}} data-aos="fade-down">
                           <Card text='white' bg="dark" className='cardhover' style={{border: 'none'}}>
-                              <Card.Img variant="top" src="joao.png" />
+                              <Card.Img variant="top" src="joao.jpg" />
                               <Card.Body>
                                   <Card.Title>Joao Araujo</Card.Title>
                                   <Card.Subtitle className="mb-2">Head of Training</Card.Subtitle>

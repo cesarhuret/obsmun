@@ -23,11 +23,6 @@ export function Routes() {
                     <OBSMUN/>
 
                 </Route>
-                <Route path="/documents">
-                    
-                    {/* <About/> */}
-
-                </Route>
                 <Route path="/team">
                     
                    <Team/>
@@ -36,11 +31,6 @@ export function Routes() {
                 <Route path="/registration">
                     
                     <Registration/>
-
-                </Route>
-                <Route path="/sponsors">
-                    
-                    {/* <About/> */}
 
                 </Route>
                 <Route path="/socialevent">
