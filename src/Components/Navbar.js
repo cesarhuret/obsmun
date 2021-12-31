@@ -1,19 +1,9 @@
 import React, {Component} from "react";
 import {Navbar, Nav, Container, NavDropdown } from 'react-bootstrap'
 import '../Pages/Home.css'
-import { isDesktop, isMobile } from 'react-device-detect';
 import { Link } from "react-router-dom";
 
 class NavComp extends Component {
-    mobile = false;
-    constructor() {
-      super()
-      if(isMobile) {
-        this.mobile = true
-      } else if(isDesktop) {
-        this.mobile = false
-      }
-    }
 
   render() {
         return ( 
@@ -33,6 +23,7 @@ class NavComp extends Component {
                         {/* <Nav.Link href="/documents">Documents</Nav.Link> */}
                         <Link className='navlink2 bottomBorder' to='/team'>The Team</Link>
                         <Link className='navlink2 bottomBorder' to='/registration'>Registration</Link>
+                        <Nav.Link className="navlink2 bottomBorder" href='https://api.obsmun.org/OBSMUN%202022%20-%20Committee%20Topics.pdf'>Committee Topics</Nav.Link>
                         <NavDropdown className="navlink2 bottomBorder" title="Contacts" id="basic-nav-dropdown">
                             <NavDropdown.Item href="https://www.instagram.com/obsmun2022/">Instagram</NavDropdown.Item>
                             <NavDropdown.Item href="mailto:obsmun@obs.edu.pt">Email</NavDropdown.Item>
