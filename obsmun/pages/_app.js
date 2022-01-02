@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import AOS from "aos";
 
+import 'bootstrap/dist/css/bootstrap.min.css';
 import "aos/dist/aos.css";
 import '../styles/globals.css'
 import Layout from "../components/layout";
