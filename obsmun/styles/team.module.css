@@ -17,8 +17,6 @@
   }
 }
 
-
-
 .main {
   min-height: 100vh;
   padding: 4rem 0;
@@ -100,6 +98,7 @@
   transition: 0.15s ease;
   max-width: 300px;
   background-color: #eaeaead7;
+  padding: 0.rem;
 }
 
 .animate {

@@ -1,8 +1,10 @@
 import Head from "next/head";
+import Footer from "../components/footer";
 import styles from '../styles/registration.module.css'
 
 export default function Registration () {
     return(
+    <div>
         <div className={styles.container}>
             <Head>
                 <title>OBSMUN | Register</title>
@@ -27,5 +29,7 @@ export default function Registration () {
                 </div>
             </main>
         </div>
+        <Footer />
+    </div>
     )
 }

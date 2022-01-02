@@ -4,7 +4,7 @@ import Menu from './navbar'
 export default function Layout({ children }) {
   return (
     <>
-      {/* <Menu/> */}
+      <Menu/>
       <main>{children}</main>
       <Footer />
     </>

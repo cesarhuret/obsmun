@@ -2,6 +2,10 @@
 
 .container {
   padding: 0 2rem;
+  background-image: url('/registration.jpg');
+  background-size: cover;
+  min-height: 100vh;
+  background-position: center;
 }
 
 .main {
@@ -84,6 +88,7 @@
   padding: 1.5rem;
   text-align: left;
   color: inherit;
+  background-color: #eaeaeae1;
   text-decoration: none;
   border: 1px solid #eaeaea;
   border-radius: 10px;

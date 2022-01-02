@@ -2,6 +2,7 @@ import Aos from 'aos';
 import Head from 'next/head'
 import Image from 'next/image'
 import { useEffect } from 'react';
+import Footer from '../components/footer';
 import styles from '../styles/team.module.css'
 
 export default function Secretariat() {
@@ -43,35 +44,44 @@ export default function Secretariat() {
     ]
 
     return (
-        <div className={styles.container}>
-        <Head>
-            <title>OBSMUN | Secretariat</title>
-            <meta name="description" content="Join us at OBSMUN 2022!" />
-            <link rel="icon" href="/favicon.ico" />
-        </Head>
-        <main className={styles.main}>
-            <h1 className={styles.title}>
-                The Secretariat
-            </h1>
+        <div>
+            <div className={styles.container}>
+                <Head>
+                    <title>OBSMUN | Secretariat</title>
+                    <meta name="description" content="Join us at OBSMUN 2022!" />
+                    <link rel="icon" href="/favicon.ico" />
+                </Head>
+                <main className={styles.main}>
+                    <h1 className={styles.title}>
+                        The Secretariat
+                    </h1>
 
-            <p className={styles.description}  data-aos='fade-up'>
-                OBSMUN is led by a young group of students who ensure the smooth running of the event. 
-            </p>
+                    <div className={styles.grid} data-aos='fade-down'>
+                        {team.map( member => (
+                            <div key={member.name} className={styles.card}>
+                                <img src={member.image} alt={member.name} width={'100%'} height={'100%'}/>
 
-            <div className={styles.grid} data-aos='fade-down'>
-                {team.map( member => (
-                    <div key={member.name} className={styles.card}>
-                        <img src={member.image} alt={member.name} width={'100%'} height={'100%'}/>
-
-                        <div className={styles.cardbody}>
-                            <h2>{member.name}</h2>
-                            <p>{member.title}</p>
-                            <p className={styles.subtitle}>{member.subtitle}</p>
-                        </div>
+                                <div className={styles.cardbody}>
+                                    <h2>{member.name}</h2>
+                                    <p>{member.title}</p>
+                                    <p className={styles.subtitle}>{member.subtitle}</p>
+                                </div>
+                            </div>
+                        ))}
                     </div>
-                ))}
+                </main>
             </div>
-        </main>
+            <footer className={styles.footer}>
+                <a
+                href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+                target="_blank"
+                rel="noopener noreferrer"
+                >
+                <span className={styles.logo}>
+                    <Image src="/logo512.png" alt="OBSMUN" width={64} height={59} />
+                </span>
+                </a>
+            </footer>
         </div>
     )
 }
