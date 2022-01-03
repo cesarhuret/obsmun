@@ -1,8 +1,4 @@
-import Aos from 'aos';
 import Head from 'next/head'
-import Image from 'next/image'
-import { useEffect } from 'react';
-import Footer from '../components/footer';
 import styles from '../styles/team.module.css'
 
 export default function Secretariat() {

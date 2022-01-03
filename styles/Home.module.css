@@ -1,18 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
 
-.container {
-  padding: 0 2rem;
-  background-image: url('/main.jpg');
-  background-size: cover;
-  min-height: 100vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+@media (max-width: 600px) {
+  .container {
+    padding: 0 2rem;
+    background-color: #092E54;
+    min-height: 100vh;
+  }
+}
+
+@media (min-width: 600px) {
+  .container {
+    padding: 0 2rem;
+    background-image: url('/main.jpg');
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
 }
 
 @media (min-width: 1000px) {
   .header {
-    color: white;
     min-height: 90vh;
     flex: 1;
     display: flex;
@@ -22,6 +31,7 @@
   }
 }
 .header {
+  color: white;
   flex: 1;
   display: flex;
   flex-direction: column;
