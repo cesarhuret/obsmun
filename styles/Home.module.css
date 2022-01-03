@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+.container {
+  padding: 0 2rem;
+  background-image: url('/main.jpg');
+  background-size: cover;
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+@media (min-width: 1000px) {
+  .header {
+    color: white;
+    min-height: 90vh;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.header {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header p {
+  font-size: 3rem;
+}
+
+.main {
+  min-height: 50vh;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0rem 0rem 5rem 0rem;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+  padding: 2rem 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1600px;
+  padding: 2rem 0rem;
+}
+
+.card {
+  margin: 0.5rem;
+  padding: 3rem;
+  text-align: left;
+  color: inherit;
+  background-color: #eaeaeae1;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: 0.15s ease;
+  max-width: 550px;
+  color: black;
+}
+
+.card img {
+  border-radius: 10px;
+}
+
+.cardlink {
+  margin: 0.5rem;
+  padding: 3rem;
+  text-align: left;
+  color: inherit;
+  background-color: #eaeaeae1;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: 0.25s ease;
+  max-width: 350px;
+  color: black;
+}
+
+.cardlink:hover,
+.cardlink:focus,
+.cardlink:active {
+  color: #0070f3;
+  border-color: #0070f3;
+  box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.2); 
+}
+
+
+.cardbody{
+  padding: 1.5rem;
+}
+
+.card a {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.card p {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.image {
+  margin: 0.5rem;
+  padding: 1rem;
+  color: inherit;
+  max-width: 700px;
+}
+
+.image img {
+  border-radius: 7px;
+}
+
+.subtitle {
+  font-size: 1.05rem!important;
+  opacity: 60%;
+}
+
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
