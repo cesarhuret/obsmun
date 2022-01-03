@@ -28,7 +28,7 @@ export default function OBS () {
                     <div className={styles.image} data-aos='fade-up'>
                         <Image src="/obsoutside2.jpg" alt="OBSMUN" width={400} height={240} />
                     </div>
-                    <div className={styles.card} data-aos='fade-left'>
+                    <div className={styles.card} data-aos='fade-down'>
                         <h1>Our Vision</h1>
                         <p>Oporto British School aims to be an inspirational institution of thinking and learning, promoting excellence from all our pupils, and developing the compassionate, responsible leaders of the future.</p>
                     </div>
