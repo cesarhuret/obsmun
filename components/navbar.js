@@ -5,7 +5,7 @@ import Link from 'next/link'
 export default function Menu () {
     return(
             <div>
-                <Navbar className={styles.nav} bg='none' variant="light" expand="lg" fixed='top'>
+                <Navbar className={styles.nav} bg='none' variant="light" expand="lg">
                 <Container>
                     <Navbar.Brand href="/">
                         <img src='logo512.png' style={{width: 50, height: 'auto'}} alt='' />
