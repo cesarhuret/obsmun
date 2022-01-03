@@ -8,12 +8,12 @@ export default function OBSMUN () {
             <Head>
                 <title>OBSMUN</title>
                 <meta name="description" content="Join us at OBSMUN 2022!" />
-                <link rel="icon" href="/favicon.ico" />
+                <link rel="icon" href="/logo512.png" />
             </Head>
+            <h1 className={styles.title}>
+                The OBSMUN
+            </h1>
             <main className={styles.main}>
-                <h1 className={styles.title}>
-                    The OBSMUN
-                </h1>
                 
                 <div className={`${styles.grid}`} data-aos='fade-up'>
                     <div className={styles.card}>

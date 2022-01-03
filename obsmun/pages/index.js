@@ -8,7 +8,7 @@ export default function Home() {
       <Head>
         <title>OBSMUN | Home</title>
         <meta name="description" content="Join us at OBSMUN 2022!" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/logo512.png" />
       </Head>
 
       <main className={styles.main}>
@@ -59,17 +59,6 @@ export default function Home() {
           </a>
         </div>
       </main>
-      <footer className={styles.footer}>
-                <a
-                href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-                target="_blank"
-                rel="noopener noreferrer"
-                >
-                <span className={styles.logo}>
-                    <Image src="/logo512.png" alt="OBSMUN" width={64} height={59} />
-                </span>
-                </a>
-            </footer>
     </div>
   )
 }

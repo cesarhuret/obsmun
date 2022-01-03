@@ -18,7 +18,7 @@ export default function Menu () {
                         <a className={styles.link} href='/secretariat'>Secretariat</a>
                         <a className={styles.link} href='/obs'>Our School</a>
                         <a className={styles.link} href='/registration'>Register</a>
-                        <a className={styles.link} href='https://api.obsmun.org/OBSMUN%202022%20-%20Committee%20Topics.pdf'>Committee Topics</a>
+                        <a className={styles.link} href='/topics'>Committee Topics</a>
                     </Nav>
                     </Navbar.Collapse>
                 </Container>

@@ -46,13 +46,14 @@ export default function Secretariat() {
                 <Head>
                     <title>OBSMUN | Secretariat</title>
                     <meta name="description" content="Join us at OBSMUN 2022!" />
-                    <link rel="icon" href="/favicon.ico" />
+                    <link rel="icon" href="/logo512.png" />
                 </Head>
-                <main className={styles.main}>
-                    <h1 className={styles.title}>
-                        The Secretariat
-                    </h1>
+                
+                <h1 className={styles.title}>
+                    The Secretariat
+                </h1>
 
+                <main className={styles.main}>
                     <div className={styles.grid} data-aos='fade-up'>
                         {team.map( member => (
                             <div key={member.name} className={styles.card}>

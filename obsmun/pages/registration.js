@@ -9,7 +9,7 @@ export default function Registration () {
             <Head>
                 <title>OBSMUN | Register</title>
                 <meta name="description" content="Join us at OBSMUN 2022!" />
-                <link rel="icon" href="/favicon.ico" />
+                <link rel="icon" href="/logo512.png" />
             </Head>
             <h1 className={styles.title}>
                     Register
