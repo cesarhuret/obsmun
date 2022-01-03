@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
 .footer {
     position: absolute;
     bottom: 0;
@@ -20,8 +22,22 @@
     margin-left: 0.5rem;
   }
 
-.centered {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+  .centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .link {
+    padding: 1rem;
+  }
+
+  .nav {
+    position: sticky;
+    top: 0;
+    background-color: white;
+  }
+
+  .right {
+    margin-left: auto;
+  }
