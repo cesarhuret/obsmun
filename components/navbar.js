@@ -2,6 +2,7 @@
 import Image from "next/image";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import styles from './component.module.css'
+import Link from 'next/link'
 
 export default function Menu () {
     return(
@@ -14,12 +15,12 @@ export default function Menu () {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className={styles.right}>
-                        <a className={styles.link} href='/'>Home</a>
-                        <a className={styles.link} href='/obsmun'>The Event</a>
-                        <a className={styles.link} href='/secretariat'>Secretariat</a>
-                        <a className={styles.link} href='/obs'>Our School</a>
-                        <a className={styles.link} href='/registration'>Register</a>
-                        <a className={styles.link} href='/topics'>Committee Topics</a>
+                        <span className={styles.link}><Link href='/'>Home</Link></span>
+                        <span className={styles.link}><Link href='/obsmun'>The Event</Link></span>
+                        <span className={styles.link}><Link href='/secretariat'>Secretariat</Link></span>
+                        <span className={styles.link}><Link href='/obs'>Our School</Link></span>
+                        <span className={styles.link}><Link href='/registration'>Register</Link></span>
+                        <span className={styles.link}><Link href='/topics'>Committee Topics</Link></span>
                     </Nav>
                     </Navbar.Collapse>
                 </Container>
