@@ -1,10 +1,11 @@
+import Script from 'next/script'
 import Footer from './footer'
 import Menu from './navbar'
 
 export default function Layout({ children }) {
   return (
     <>
-      <script src="//code.tidio.co/t5phuxngbjnmrsbmlpzdj7borkeguz2d.js"></script>
+      <Script src="//code.tidio.co/t5phuxngbjnmrsbmlpzdj7borkeguz2d.js"></Script>
       <Menu/>
       <main>{children}</main>
       <Footer />
