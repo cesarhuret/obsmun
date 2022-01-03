@@ -1,12 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
 
 .footer {
-    position: absolute;
-    bottom: 0;
-    width: 80%;
-    display: flex;
-    flex: 1;
-    padding: 2rem 0px 5rem 0px;
+    /* width: 80%; */
+    /* display: flex; */
+    /* flex: 1; */
+    padding: 2rem 0px 1rem 0px;
     border-top: 1px solid #eaeaea;
   }
   
@@ -18,7 +16,6 @@
   }
   
   .logo {
-    height: 1em;
     margin-left: 0.5rem;
   }
 
@@ -40,4 +37,19 @@
 
   .right {
     margin-left: auto;
+  }
+
+  .grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1600px;
+    text-align: left;
+  }
+
+  .padded {
+    padding: 1rem;
+    text-align: left;
+    color: #0965ce;
   }

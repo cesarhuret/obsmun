@@ -1,20 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
 
-@media (min-width: 900px) {
-  .container {
-    padding: 0 2rem;
-    background-image: url('/team.jpg');
-    background-size: cover;
-  }
-}
-
-@media (max-width: 900px) {
-  .container {
-    padding: 0 2rem;
-    background-image: url('/team.jpg');
-    max-height: 33vh;
-    background-size: cover;
-  }
+.container {
+  padding: 0 2rem;
+  background-image: url('/team.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
 .main {
@@ -25,22 +15,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.footer {
-  display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
 }
 
 .title a {

@@ -29,7 +29,6 @@ export default function Registration () {
                 </div>
             </main>
         </div>
-        <Footer />
     </div>
     )
 }

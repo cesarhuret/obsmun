@@ -6,9 +6,6 @@ import Footer from '../components/footer';
 import styles from '../styles/team.module.css'
 
 export default function Secretariat() {
-    useEffect(() => {
-        Aos.init({duration: 1000})
-    }, []);
 
     const team = [
         {
@@ -56,7 +53,7 @@ export default function Secretariat() {
                         The Secretariat
                     </h1>
 
-                    <div className={styles.grid} data-aos='fade-down'>
+                    <div className={styles.grid} data-aos='fade-up'>
                         {team.map( member => (
                             <div key={member.name} className={styles.card}>
                                 <img src={member.image} alt={member.name} width={'100%'} height={'100%'}/>
@@ -71,17 +68,6 @@ export default function Secretariat() {
                     </div>
                 </main>
             </div>
-            <footer className={styles.footer}>
-                <a
-                href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-                target="_blank"
-                rel="noopener noreferrer"
-                >
-                <span className={styles.logo}>
-                    <Image src="/logo512.png" alt="OBSMUN" width={64} height={59} />
-                </span>
-                </a>
-            </footer>
         </div>
     )
 }
