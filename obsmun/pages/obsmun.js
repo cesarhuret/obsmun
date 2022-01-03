@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import styles from '../styles/Home.module.css'
+import styles from '../styles/event.module.css'
 
 export default function OBSMUN () {
     return(
@@ -24,8 +24,7 @@ export default function OBSMUN () {
                             Thereafter, voting on their adoption and formulating a final resolution with the inclusion of numerous clauses.
                         </p>
                     </div>
-                    <div className={styles.card}>
-                        {/* <Image src='/obsmuncouncil.png'/> */}
+                    <div className={styles.image}>
                         <Image src="/obsmuncouncil.png" alt="Vercel Logo" width={512} height={278} />
                     </div>    
                 </div>
