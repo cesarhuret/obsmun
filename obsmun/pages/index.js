@@ -45,7 +45,7 @@ export default function Home() {
             className={styles.card}
           >
             <h2>The Event </h2>
-            <p>We are glad to present the OBSMUN 2022 Conference. We hope this will provide you with the opportunity to improve your public speaking skills, whilst meeting new people and making new connections. See you there!</p>
+            <p>We are glad to present the OBSMUN 2022 Conference. We hope this will provide you with the opportunity to improve your public speaking skills, whilst meeting new people and making new connections. See you online!</p>
           </a>
 
           <a
