@@ -8,7 +8,6 @@ export default function Home() {
   const [width, setWidth] = useState(1000);
   useEffect(() => {
     setWidth(window.innerWidth)
-    console.log(window.innerWidth)
   })
 
   return (
