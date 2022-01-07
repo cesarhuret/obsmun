@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Footer from "../components/footer";
 import styles from '../styles/registration.module.css'
 
 export default function Registration () {

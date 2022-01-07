@@ -1,13 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
 
-.container {
-  padding: 0 2rem;
-  background-image: url('/school.png');
-  background-size: cover;
-  min-height: 100vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+@media (max-width: 600px) {
+  .container {
+    background-color: #092E54;
+    padding: 0 2rem;
+    min-height: 100vh;
+  }
+}
+
+@media (min-width: 600px) {
+  .container {
+    padding: 0 2rem;
+    background-image: url('/school.png');
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
 }
 
 .main {
