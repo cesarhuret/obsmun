@@ -2,8 +2,15 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
+import { useEffect, useState } from 'react'
 
 export default function Home() {
+  const [width, setWidth] = useState(1000);
+  useEffect(() => {
+    setWidth(window.innerWidth)
+    console.log(window.innerWidth)
+  })
+
   return (
     <div className={styles.container}>
       <Head>
@@ -19,7 +26,10 @@ export default function Home() {
         <div className={styles.cardlink}>
           <h1><Link href='/registration'>Register &rarr;</Link></h1>
         </div>
-      </div>
+        {width >= 1000 ? 
+          <svg className={styles.arrow} fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
+        : null }
+        </div>
       <main className={styles.main}>
           <div className={styles.grid}>
               <div className={styles.card} data-aos='fade-right'>
