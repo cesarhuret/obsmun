@@ -34,6 +34,12 @@ export default function Secretariat() {
             subtitle: "Secretary General",
             image: "/joao.jpg"
         },
+        {
+            name: "Cesar Huret",
+            title: "Website",
+            subtitle: "Developer",
+            image: "/cesar.jpg"
+        },
     ]
 
     return (
@@ -44,7 +50,7 @@ export default function Secretariat() {
                     <meta name="description" content="Join us at OBSMUN 2022!" />
                     <link rel="icon" href="/logo512.png" />
                 </Head>
-                
+
                 <h1 className={styles.title}>
                     The Secretariat
                 </h1>
