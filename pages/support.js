@@ -17,11 +17,13 @@ export default function Support () {
 
         await fetch('https://api.obsmun.org/submitForm', {
             method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
+            mode: 'cors',
+            headers: { 'Content-Type': 'application/json', 'Access-Control-Allow-Origin': '*' },
             body: JSON.stringify({ name, email, committee, issue })
         })
         .then(response => response.json())
         .then(data => setScreen(false))
+        .catch((e) => {console.log(e)})
     }
 
     return(
@@ -43,10 +45,9 @@ export default function Support () {
                             <option value="ECOSOC">ECOSOC</option>
                             <option value="Human Rights">Human Rights</option>
                             <option value="WHO">World Health Organisation</option>
-                            <option value="Security Council">Secuity Council</option>
+                            <option value="Security Council">Security Council</option>
                             <option value="General Assembly">General Assembly</option>
                         </select>
-                        <input className={styles.card} type="text" name="committee" placeholder="Committee" required />
                         <textarea className={styles.card} type="text" rows="5" name="issue" placeholder="Issue" required />
                         <button className={styles.card} type="submit">Submit</button>
                     </form>
