@@ -12,7 +12,7 @@ export default function Registration () {
             </Head>
             <h1 className={styles.title}>
                     Register
-                </h1>
+            </h1>
             <main className={styles.main}>
                 <div className={`${styles.grid}`} data-aos='fade-up'>
                     <div className={styles.card}>
