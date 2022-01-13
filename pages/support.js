@@ -29,7 +29,7 @@ export default function Support () {
     return(
         <div className={styles.container}>
             <Head>
-                <title>OBSMUN | Committee Topics</title>
+                <title>OBSMUN | Support </title>
                 <meta name="description" content="Join us at OBSMUN 2022!" />
                 <link rel="icon" href="/logo512.png" />
             </Head>
