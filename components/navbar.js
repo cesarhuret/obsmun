@@ -20,6 +20,7 @@ export default function Menu () {
                         <span className={styles.link}><Link href='/registration'>Register</Link></span>
                         <span className={styles.link}><Link href='/topics'>Topics</Link></span>
                         <span className={styles.link}><Link href='/schedule'>Schedule</Link></span>
+                        <span className={styles.link}><Link href='/support'>Support</Link></span>
                     </Nav>
                     </Navbar.Collapse>
                 </Container>
