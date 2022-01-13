@@ -52,8 +52,14 @@ export default function Support () {
                         <button className={styles.card} type="submit">Submit</button>
                     </form>
                 :
-                    <div>
-                        <h1>Thank you for submitting!</h1>
+                    <div style={{textAlign: 'center', maxWidth: '1000px'}}>
+                        <h4>Your message has been sent to our support team.</h4>
+                        <br/>
+                        <h4>They will get back to you as soon as possible via our email address: obsmun@obs.edu.pt</h4>
+                        <br/>
+                        <h4>If you don’t receive any response in 60 minutes please get in touch with us directly at our email address or with your Chairs via the designated committee email address.</h4>
+                        <br/>
+                        <h4>Please check your Junk/Spam folders for any emails you may receive from us.</h4>
                     </div>
                 }
             </main>
