@@ -1,10 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
 
-.container {
-  padding: 0 2rem;
-  background-size: cover;
-  min-height: 100vh;
-  background-position: center;
+@media (max-width: 600px) {
+  .container {
+    padding: 0 2rem;
+    background-color: #092E54;
+    min-height: 100vh;
+  }
+}
+@media (min-width: 600px) {
+  .container {
+    padding: 0 2rem;
+    min-height: 100vh;
+  }
 }
 
 .main {
@@ -33,12 +40,14 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 1600px;
+  max-width: 700px;
 }
+
 
 .card {
   margin: 0.5rem;
   padding: 1rem;
+  width: 100%;
   text-align: left;
   color: inherit;
   background-color: #eaeaeae1;
@@ -46,7 +55,10 @@
   border: 1px solid #eaeaea;
   border-radius: 10px;
   transition: 0.15s ease;
-  max-width: 700px;
+}
+
+.vertical {
+  padding: 2rem 0rem;
 }
 
 .card img {

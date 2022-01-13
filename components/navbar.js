@@ -14,11 +14,12 @@ export default function Menu () {
                     <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className={styles.right}>
                         <span className={styles.link}><Link href='/'>Home</Link></span>
-                        <span className={styles.link}><Link href='/obsmun'>The Event</Link></span>
+                        <span className={styles.link}><Link href='/obsmun'>Event</Link></span>
                         <span className={styles.link}><Link href='/secretariat'>Secretariat</Link></span>
-                        <span className={styles.link}><Link href='/obs'>Our School</Link></span>
+                        <span className={styles.link}><Link href='/obs'>School</Link></span>
                         <span className={styles.link}><Link href='/registration'>Register</Link></span>
-                        <span className={styles.link}><Link href='/topics'>Committee Topics</Link></span>
+                        <span className={styles.link}><Link href='/topics'>Topics</Link></span>
+                        <span className={styles.link}><Link href='/schedule'>Schedule</Link></span>
                     </Nav>
                     </Navbar.Collapse>
                 </Container>
