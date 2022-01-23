@@ -24,8 +24,8 @@ export default function Documents () {
             </h1>
             <main className={styles.main}>
                 <div className={`${styles.grid}`} data-aos='fade-up'>
-                    {documents.map(item => (
-                        <div className={styles.card}>
+                    {documents.map((item, index) => (
+                        <div key={index} className={styles.card}>
                             <a 
                                 href={item.path}
                                 target='_blank'
