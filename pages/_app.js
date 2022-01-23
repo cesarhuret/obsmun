@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import AOS from "aos";
+import Head from "next/head";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "aos/dist/aos.css";
@@ -16,7 +17,14 @@ function MyApp({ Component, pageProps }) {
     });
   }, []);
 
-  return <Layout><Component {...pageProps} /></Layout>
+  return (
+    <>
+      <Head>
+        <link rel="shortcut icon" href="/logo512.png" />
+      </Head>
+      <Layout><Component {...pageProps} /></Layout>
+    </>
+  )
 }
 
 export default MyApp
