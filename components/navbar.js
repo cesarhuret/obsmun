@@ -21,6 +21,7 @@ export default function Menu () {
                         <span className={styles.link}><Link href='/topics'>Topics</Link></span>
                         <span className={styles.link}><Link href='/schedule'>Schedule</Link></span>
                         <span className={styles.link}><Link href='/documents'>Documents</Link></span>
+                        <span className={styles.link}><Link href='/terms'>Terms and Conditions</Link></span>
                     </Nav>
                     </Navbar.Collapse>
                 </Container>
