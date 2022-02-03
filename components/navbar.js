@@ -17,7 +17,6 @@ export default function Menu () {
                         <span className={styles.link}><Link href='/obsmun'>Event</Link></span>
                         <span className={styles.link}><Link href='/secretariat'>Secretariat</Link></span>
                         <span className={styles.link}><Link href='/obs'>School</Link></span>
-                        <span className={styles.link}><Link href='/registration'>Register</Link></span>
                         <span className={styles.link}><Link href='/topics'>Topics</Link></span>
                         <span className={styles.link}><Link href='/schedule'>Schedule</Link></span>
                         <span className={styles.link}><Link href='/documents'>Documents</Link></span>
