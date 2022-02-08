@@ -17,16 +17,16 @@ export default function OBSMUN () {
                 
                 <div className={`${styles.grid}`} data-aos='fade-up'>
                     <div className={styles.card}>
-                        <h2>What is the OBSMUN?</h2>
-                        <p>During the OBSMUN 2022 conference, delegates will have the distinct opportunity to develop their knowledge and also, 
-                            skills alongside enthusiastic delegates from around the globe! In the majority of OBSMUN’s committees, 
-                            a clause-by-clause procedure shall have ensued; delegates may prepare draft clauses and deliberate upon them during committee sessions.
-                            Thereafter, voting on their adoption and formulating a final resolution with the inclusion of numerous clauses.
+                        <h2>OBSMUN 2022 - 3rd to 5th February 2022</h2>
+                        <p>The 3rd to 5th February OBSMUN 2022 conference was a widely successful on-line conference with delegates joining from all around the world. 
+                            With a large selection of different nationalities shown from delegates it was most definitely a international conference, 
+                            connecting many different nationalities and alternative views in a controlled environment. 
+                            Many participants were able to improve on various skills such as Public Speaking, Debate skills, and research skills, whilst having a fun time. Alternative activities for delegates to get to know each other ensued during this “out of the ordinary” conference, still allowing delegates to connect within themselves. 
+                            <br/>The event was hosted from the Natixis in Porto Office with support in planning and organization from the Natixis in Porto Team and the Oporto British School Administrative Team, Students and Staff. 
+                            <br/> It was with great pleasure that the Secretary General of OBSMUN 2022 declared on the 5th of February at 4:56 PM, the closing of the OBSMUN 2022 and invited all participants to join all future conferences.
                         </p>
                     </div>
-                    <div className={styles.image}>
-                        <Image src="/obsmuncouncil.png" alt="Vercel Logo" width={512} height={278} />
-                    </div>    
+
                 </div>
             </main>
         </div>
