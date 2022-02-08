@@ -26,7 +26,6 @@ export default function OBSMUN () {
                             <br/> It was with great pleasure that the Secretary General of OBSMUN 2022 declared on the 5th of February at 4:56 PM, the closing of the OBSMUN 2022 and invited all participants to join all future conferences.
                         </p>
                     </div>
-
                 </div>
             </main>
         </div>
