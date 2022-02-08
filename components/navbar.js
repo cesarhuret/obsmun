@@ -13,7 +13,7 @@ export default function Menu () {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className={styles.right}>
-                        <span className={styles.link}><Link href='/'>Home</Link></span>
+                        <span className={styles.link}><Link href='/gallery'>Gallery</Link></span>
                         <span className={styles.link}><Link href='/obsmun'>Event</Link></span>
                         <span className={styles.link}><Link href='/secretariat'>Secretariat</Link></span>
                         <span className={styles.link}><Link href='/obs'>School</Link></span>
