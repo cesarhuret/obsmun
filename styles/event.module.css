@@ -12,7 +12,7 @@
 @media (min-width: 600px) {
   .container {
     padding: 0 2rem;
-    background-image: url('/exobsmun.png');
+    background-image: url('/event.png');
     background-size: cover;
     min-height: 100vh;
     background-position: center;
@@ -54,7 +54,7 @@
   padding: 1.5rem;
   text-align: left;
   color: inherit;
-  background-color: #eaeaeae1;
+  background-color: #eaeaeae8;
   text-decoration: none;
   border: 1px solid #eaeaea;
   border-radius: 10px;
