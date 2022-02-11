@@ -17,9 +17,9 @@ export default function Home() {
             OBSMUN 2022
         </h1>
         <p>February 3-5</p>
-        {/* <div className={styles.cardlink}>
+        <div className={styles.cardlink}>
           <h1><Link href='/gallery'>Gallery &rarr;</Link></h1>
-        </div> */}
+        </div>
       </div>
     </div>
   )

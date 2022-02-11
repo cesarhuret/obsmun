@@ -4,6 +4,7 @@ module.exports = {
     domains: [
       'm.obs.edu.pt',
       'i.imgur.com',
+      'api.obsmun.org',
     ],
   },
 }
