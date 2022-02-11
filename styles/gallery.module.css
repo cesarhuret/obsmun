@@ -37,6 +37,10 @@
   animation: fadeIn 1s ease-in-out;
 }
 
+.in {
+  animation: fadeIn 1s ease-in-out;
+}
+
 .grid {
   display: flex;
   align-items: center;

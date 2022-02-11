@@ -76,7 +76,7 @@ export default function Gallery () {
                     {images.map((list, index) => (
                         <div key={index} className={styles.block}>
                             {images[index].map((image, index) => (
-                                <span key={index} className={styles.image}>
+                                <span key={index} className={`${styles.image} ${styles.in}`}>
                                     <Image src={`https://api.obsmun.org/${image.src}.png`} alt="OBSMUN" width={image.x} height={image.y} />
                                 </span>
                             ))}
