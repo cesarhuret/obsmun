@@ -72,28 +72,18 @@
 
 .image {
   margin: 0.5rem;
-  padding: 1rem;
   color: inherit;
   max-width: 700px;
+  border-radius: 10px;
 }
 
 .image img {
   border-radius: 10px;
 }
 
-.cardbody{
-  padding: 1.5rem;
-}
-
-.card a {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
-  font-weight: 500;
-}
-
-.card p {
-  margin: 0;
-  font-size: 1.1rem;
+.loading {
+  background-color: #eaeaea;
+  animation: pulse 1s ease-in-out infinite;
 }
 
 .subtitle {
@@ -119,4 +109,18 @@
         opacity: 1;
         transform: translateY(0%);
     }
+}
+
+@keyframes pulse {
+  0% {
+    background-color: #919191;
+  }
+  
+  50% {
+    background-color: #afafafde;
+  }
+
+  100% {
+    background-color: #919191;
+  }
 }
