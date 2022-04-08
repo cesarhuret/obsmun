@@ -5,10 +5,9 @@ import Menu from './navbar'
 export default function Layout({ children }) {
   return (
     <>
-      <Script src="//code.tidio.co/t5phuxngbjnmrsbmlpzdj7borkeguz2d.js"></Script>
-      <Menu/>
-      <main>{children}</main>
-      <Footer />
+      {/* <Script src="//code.tidio.co/t5phuxngbjnmrsbmlpzdj7borkeguz2d.js"></Script> */}
+      {/* <Menu/> */}
+      {children}
     </>
   )
 }

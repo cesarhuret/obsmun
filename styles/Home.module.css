@@ -10,13 +10,11 @@
 
 @media (min-width: 600px) {
   .container {
-    padding: 0 2rem;
-    background-image: url('/main.jpg');
-    background-size: cover;
-    min-height: 100vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    position: relative;
+    text-align: center;
+    color: white;
+    max-height: 100vh;
+    overflow: hidden;
   }
 }
 
@@ -30,6 +28,43 @@
     align-items: center;
   }
 }
+
+.slideshow {
+  margin: 0 0 0 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.slideshowSlider {
+  white-space: nowrap;
+  transition: ease 1000ms;
+}
+
+.slide {
+  display: inline-block;
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #1d5596ad;
+  padding: 2rem;
+  border-radius: 2rem;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 8px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
 .header {
   color: white;
   flex: 1;
@@ -69,7 +104,35 @@
   justify-content: center;
   flex-wrap: wrap;
   max-width: 1600px;
-  padding: 2rem 0rem;
+  padding: 0rem 0rem;
+}
+
+.footer {
+  /* width: 80%;
+  display: flex;
+  flex: 1;  */
+  padding: 1rem 0px 0.5rem 0px;
+  /* border-top: 1px solid #eaeaea; */
+  background-color: #0071f346;
+  border-radius: 10px;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.logo {
+  margin-left: 0.5rem;
+}
+
+.padded {
+  padding: 0.5rem;
+  text-align: center;
+  color: #0965ce;
+  justify-content: center;
 }
 
 .card {

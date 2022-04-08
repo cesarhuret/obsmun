@@ -22,7 +22,7 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <link rel="shortcut icon" href="/logo512.png" />
       </Head>
-      <Layout><Component {...pageProps} /></Layout>
+      <Component {...pageProps} />
     </>
   )
 }
