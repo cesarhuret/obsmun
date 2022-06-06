@@ -37,7 +37,6 @@ export default function Footer () {
                     and invited all participants to join all future conferences.
                 </Text>
 
-
             </Container>
         </>
     )

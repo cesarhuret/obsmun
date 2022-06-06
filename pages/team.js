@@ -1,6 +1,29 @@
-import { Box, Button, Container, Flex, HStack, Image, Text } from "@chakra-ui/react";
+import { Box, Button, Container, Flex, HStack, Image, Stack, Text, useColorModeValue } from "@chakra-ui/react";
 
-export default function Footer () {
+const members = [
+    {
+        name: 'Pedro Pinho',
+        image: '/pedro.jpg',
+        title: 'Secretary General & Head of Operations'
+    },
+    {
+        name: 'Matheus Drehmer',
+        image: '/matheus.jpg',
+        title: 'Deputy Secretary General & Head of Hosting'
+    },
+    {
+        name: 'Maria Cerqueira',
+        image: '/maria.jpg',
+        title: 'Chief of Staff & Head of Logisitics'
+    },
+    {
+        name: 'Cesar Huret',
+        image: '/cesar.jpg',
+        title: 'Head of IT Services & Website Developer'
+    }
+]
+
+export default function Team () {
     return (
         <>
             <Box
@@ -25,6 +48,47 @@ export default function Footer () {
                     These Students are the key people responsible in bringing OBSMUN to life.
                 </Text>
 
+                <Stack
+                    py={{base: 6, md: 12}}
+                    direction={{ base: "column", md: "row" }}
+                    alignItems="center"
+                >
+                    {
+                        members.map((member, index) => (
+                            <Flex key={index} w="full" alignItems="center" justifyContent="center">
+                                <Box
+                                    bg={useColorModeValue('white', 'gray.800')}
+                                    maxW="sm"
+                                    borderWidth="1px"
+                                    rounded="lg"
+                                    shadow="lg"
+                                    position="relative"
+                                >
+
+                                    <Image
+                                    src={member.image}
+                                    alt={`Picture of ${member.name}`}
+                                    roundedTop="lg"
+                                    />
+                                    <Box p="6">
+                                        <Flex mt="1" justifyContent="space-between" alignContent="center">
+                                            <Box
+                                                fontSize="xl"
+                                                fontWeight="semibold"
+                                                as="h4"
+                                                lineHeight="tight"
+                                                isTruncated
+                                            >
+                                            {member.name}
+                                            </Box>
+                                        </Flex>
+                                        <Text fontWeight={300}>{member.title}</Text>
+                                    </Box>
+                                </Box>
+                            </Flex>
+                        ))
+                    }
+                </Stack>
             </Container>
         </>
     )
