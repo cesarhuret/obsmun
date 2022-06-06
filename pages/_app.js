@@ -5,7 +5,9 @@ import Head from "next/head";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "aos/dist/aos.css";
 import '../styles/globals.css'
-import Layout from "../components/layout";
+import { ChakraProvider } from "@chakra-ui/react";
+import WithSubnavigation from "../components/navbar";
+import Footer from "../components/footer";
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
@@ -18,12 +20,14 @@ function MyApp({ Component, pageProps }) {
   }, []);
 
   return (
-    <>
+    <ChakraProvider>
       <Head>
         <link rel="shortcut icon" href="/logo512.png" />
       </Head>
+      <WithSubnavigation/>
       <Component {...pageProps} />
-    </>
+      <Footer/>
+    </ChakraProvider>
   )
 }
 
