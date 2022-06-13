@@ -57,7 +57,7 @@ export default function Team () {
                         members.map((member, index) => (
                             <Flex key={index} w="full" alignItems="center" justifyContent="center">
                                 <Box
-                                    bg={useColorModeValue('white', 'gray.800')}
+                                    bg={'white'}
                                     maxW="sm"
                                     borderWidth="1px"
                                     rounded="lg"
