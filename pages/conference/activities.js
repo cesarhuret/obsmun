@@ -32,7 +32,7 @@ export default function Footer () {
                         As expected, the main focus and time spent during the conference will be the allocated Committee Debate time, 
                         where delegates will have the possibility to embody countries in a reenactment of a selection of the United Nations 
                         current committees. The committees are where most of the development in terms of skill gaining and growth happen, 
-                        since delegates are strongly incentivised to participate and express their Countries’ views. This is the highlight 
+                        since delegates are strongly incentivised to participate and express their Countries&apos; views. This is the highlight 
                         of OBSMUN, as by the end, to compliment of all the debate, in the form of clauses, a resolution, is compiled and voted on.
                     </Box>
                     <VStack maxW={'40%'}>

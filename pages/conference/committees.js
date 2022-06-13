@@ -30,8 +30,8 @@ export default function Footer () {
 
                 <Text fontSize={'xl'} pt={4}><strong>HUMAN RIGHTS</strong></Text>
                 <Text fontSize={'lg'} pb={2}>
-                    The Human Rights Committee was established in 2006 and is described as <strong>“the body of independent experts that monitors the implementation 
-                    of the International Covenant on Civil and Political Rights by its State parties.”</strong> 
+                    The Human Rights Committee was established in 2006 and is described as <strong>&quot;the body of independent experts that monitors the implementation 
+                    of the International Covenant on Civil and Political Rights by its State parties.&quot;</strong> 
                     It is responsible for monitoring civil and political rights. It has carried this out by encouraging universal peace and equality with innumerable 
                     — not only innovative but also traditional — ways. 
                 </Text>
@@ -54,16 +54,16 @@ export default function Footer () {
                 <Text fontSize={'xl'} pt={4}><strong>DISARMAMENT AND INTERNATIONAL SECURITY</strong></Text>
                 <Text fontSize={'lg'} pb={2}>
                     The United Nations Disarmament and International Security Committee was established in 1993, it is the first and one of the main committees of the General Assembly.
-                    The role of DISEC is defined in Chapter IV, Article 11 of the United Nations Charter which states, “The General Assembly may consider the general principles of
+                    The role of DISEC is defined in Chapter IV, Article 11 of the United Nations Charter which states, &quot;The General Assembly may consider the general principles of
                     co-operation in the maintenance of international peace and security, including the principles governing disarmament and the regulation of armaments and may make
-                    recommendations with regard to such principles to the Members or to the Security Council or to both”. According to this article, the decree of DISEC is emphasised
-                    as, <strong>“to promote the establishment and maintenance of international peace and security with the least diversion for armaments of the world&apos;s human and economic
-                    resources”.</strong>
+                    recommendations with regard to such principles to the Members or to the Security Council or to both&quot;. According to this article, the decree of DISEC is emphasised
+                    as, <strong>&quot;to promote the establishment and maintenance of international peace and security with the least diversion for armaments of the world&apos;s human and economic
+                    resources&quot;.</strong>
                 </Text>
 
                 <Text fontSize={'xl'} pt={4}><strong>WORLD HEALTH ORGANIZATION</strong></Text>
                 <Text fontSize={'lg'} pb={2}>
-                    The World Health Organization became installed in 1948 and consists of 193 Member States. Headquartered in Geneva, Switzerland, the organization's 
+                    The World Health Organization became installed in 1948 and consists of 193 Member States. Headquartered in Geneva, Switzerland, the organization&apos;s 
                     position is to function as the “authority for fitness in the United Nations system,” and to provide “management on worldwide fitness matters.” Current 
                     goals of the WHO are specified in a Six-Point Agenda geared toward responding to the demanding situations of an increasing number of complicated and swiftly 
                     converting landscape” of worldwide public fitness. 

@@ -44,7 +44,7 @@ export default function Team () {
             >
                 <Text fontSize={'lg'} py={2}>
                     At OBSMUN, a panel of experienced Students take lead of the organisational and logistical aspect of the conference. 
-                    In order to assure its smooth running, and as per common procedure in MUN’s as per the United Nations Secretariat and leadership structure itself. 
+                    In order to assure its smooth running, and as per common procedure in MUN&apos;s as per the United Nations Secretariat and leadership structure itself. 
                     These Students are the key people responsible in bringing OBSMUN to life.
                 </Text>
 

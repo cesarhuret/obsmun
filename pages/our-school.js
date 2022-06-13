@@ -33,7 +33,7 @@ export default function Footer () {
                     student to lead a successful academic career in a safe environment.
                 </Text>
                 <Text fontSize={'lg'}>
-                    The OBS motto is "Knowledge. Vision. Humanity."; every student, parent and staff member embodies this 
+                    The OBS motto is &quot;Knowledge. Vision. Humanity.&quot;; every student, parent and staff member embodies this 
                     motto in order to enhance the sense of community the school has.
                 </Text>
 
