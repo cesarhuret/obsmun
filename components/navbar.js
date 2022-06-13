@@ -262,17 +262,17 @@ import {
             label: 'Committees',
             href: '/conference/committees',
           },
-          {
-            label: 'Schedule',
-            href: '/conference/schedule',
-          },
+          // {
+          //   label: 'Schedule',
+          //   href: '/conference/schedule',
+          // },
           {
               label: 'Activities',
               href: '/conference/activities',
           },
           {
               label: 'Invitation',
-              href: '/conference/invitation',
+              href: '/invitation.pdf',
           },
         ],
       },
@@ -280,8 +280,8 @@ import {
         label: 'Our School',
         href: '/our-school',
     },
-    {
-        label: 'Contacts',
-        href: '/contacts',
-    },
+    // {
+    //     label: 'Contacts',
+    //     href: '/contacts',
+    // },
   ];

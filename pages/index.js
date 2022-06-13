@@ -8,7 +8,7 @@ export default function Home() {
       <Box
         position={'relative'}
       >
-        <Image height={'100vh'} width={'auto'} objectFit={'cover'} src='/1.JPG' />
+        <Image height={'100vh'} width={'100vw'} objectFit={'cover'} src='/1.JPG' />
         <Box
           position={'absolute'}
           left={'50%'}
