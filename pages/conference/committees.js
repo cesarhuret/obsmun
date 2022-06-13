@@ -57,7 +57,7 @@ export default function Footer () {
                     The role of DISEC is defined in Chapter IV, Article 11 of the United Nations Charter which states, “The General Assembly may consider the general principles of
                     co-operation in the maintenance of international peace and security, including the principles governing disarmament and the regulation of armaments and may make
                     recommendations with regard to such principles to the Members or to the Security Council or to both”. According to this article, the decree of DISEC is emphasised
-                    as, <strong>“to promote the establishment and maintenance of international peace and security with the least diversion for armaments of the world's human and economic
+                    as, <strong>“to promote the establishment and maintenance of international peace and security with the least diversion for armaments of the world&apos;s human and economic
                     resources”.</strong>
                 </Text>
 
