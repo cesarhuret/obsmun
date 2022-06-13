@@ -26,7 +26,7 @@ function MyApp({ Component, pageProps }) {
       </Head>
       <WithSubnavigation/>
       <Component {...pageProps} />
-      <Footer/>
+      {/* <Footer/> */}
     </ChakraProvider>
   )
 }
