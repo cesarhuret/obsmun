@@ -1,10 +1,14 @@
 import { Box, Image, Text } from "@chakra-ui/react";
+import Head from 'next/head'
 import { Stack } from "react-bootstrap";
 
 export default function Home() {
 
   return (
     <>
+      <Head>
+        <title>OBSMUN | Home</title>
+      </Head>
       <Box
         position={'relative'}
       >

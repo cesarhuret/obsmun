@@ -1,8 +1,12 @@
 import { Box, Button, Container, Flex, HStack, Image, Stack, Text, VStack } from "@chakra-ui/react";
+import Head from 'next/head'
 
 export default function Footer () {
     return (
         <>
+            <Head>
+                <title>OBSMUN | Activities</title>
+            </Head>
             <Box
                 backgroundColor={'blue.800'}
                 py={{base: 16, md: 24}}

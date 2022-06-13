@@ -1,4 +1,5 @@
 import { Box, Button, Container, Flex, HStack, Image, Stack, Text, useColorModeValue } from "@chakra-ui/react";
+import Head from 'next/head'
 
 const members = [
     {
@@ -26,6 +27,9 @@ const members = [
 export default function Team () {
     return (
         <>
+            <Head>
+                <title>OBSMUN | Team</title>
+            </Head>
             <Box
                 backgroundColor={'blue.800'}
                 py={{base: 16, md: 24}}
